@@ -1,24 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.modal-backdrop { opacity:.75 !important; background:white !important;}
+
 body {
-
+ 
+background-attachment: fixed;
+    background-image: url(../img/esplanade.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
 }
-
-div#fremont {
-background-attachment: fixed;
-    background-image: url(../img/fremont.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
-	width:100%;
-	}
-	
-	div#willamette {
-background-attachment: fixed;
-    background-image: url(../img/willamette.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
-	width:100%;
-	}

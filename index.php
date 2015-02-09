@@ -15,18 +15,76 @@
 </head>
 
 <body>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+
+
+<!-- Button trigger modal 01 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01">
   Launch demo modal
 </button>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- Button trigger modal 02 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_02">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 03 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_03">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 04 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_04">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 05 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 06 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_06">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 07 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 08 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_08">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 09 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 10 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 11 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_11">
+  Launch demo modal
+</button>
+
+<!-- Button trigger modal 12 -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_12">
+  Launch demo modal
+</button>
+
+
+<!-- Modal 01 -->
+<div class="modal fade" id="myModal_01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel_01">Modal title 1</h4>
       </div>
       <div class="modal-body">
         ...
@@ -38,6 +96,27 @@
     </div>
   </div>
 </div>
+
+
+<!-- Modal 02 -->
+<div class="modal fade" id="myModal_02" tabindex="0" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_02">Modal title 2</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 </body>
 </html>
