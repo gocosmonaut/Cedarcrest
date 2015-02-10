@@ -16,7 +16,23 @@
 
 <body>
 
+<div id="container">
 
+<div id="sidebar">
+
+<div id="logo">
+<div id="commiebird"><img src="img/commiebird.gif" /></div>
+<div id="wordmark"><img src="img/wordmark.png" /></div>
+</div> <!-- end logo -->
+
+<div id="nav">
+</div> <!-- end nav -->
+<div id="contact">
+</div> <!-- end contact -->
+</div> <!-- end sidebar -->
+
+<div id="primary">
+<div id="projects">
 <!-- Button trigger modal 01 -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01">
   Launch demo modal
@@ -76,8 +92,13 @@
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_12">
   Launch demo modal
 </button>
+</div> <!-- end projects -->
+</div><!-- end primary -->
+</div> <!-- end container -->
 
 
+
+<!-- MODALS -->
 <!-- Modal 01 -->
 <div class="modal fade" id="myModal_01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -115,7 +136,7 @@
       </div>
     </div>
   </div>
-</div>
+</div><!-- END MODALS -->
 
 
 </body>

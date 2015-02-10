@@ -1,5 +1,20 @@
-@charset "UTF-8";
-/* CSS Document */
+/***--BOOTSTRAP BREAKPOINTS-- ***/
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+}
+
 
 .modal-backdrop { opacity:.75 !important; background:white !important;}
 
@@ -11,4 +26,64 @@ background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 	width:100%;
+}
+
+/* CONTAINER */
+div#container {width:1170px; margin:0px auto; }
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+}
+
+
+/* SIDEBAR AND FRIENDS */
+
+div#sidebar {width:190px; padding:0px; position:fixed;}
+div#sidebar div#logo {margin-bottom:30px}
+div#sidebar div#logo div#commiebird { width:100%; text-align:center;padding:20px 0px; background:black;}
+div#sidebar div#logo div#wordmark {margin-bottom:20px;}
+div#sidebar div#nav {width:100%; background:black; padding:20px;}
+	
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+}
+
+/* PRIMARY */
+div#primary {width:940px; background:gray; margin-left:230px;}
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
 }
