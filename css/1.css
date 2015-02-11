@@ -19,14 +19,25 @@
 .modal-backdrop { opacity:.75 !important; background:white !important;}
 
 body {
- 
+
 background-attachment: fixed;
-    background-image: url(../img/esplanade.jpg);
+    background-image: url(../img/fremont.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
 	width:100%;
 }
+
+p, a, button, span, li, ul, div, table {
+font-family: 'Muli', sans-serif;
+ font-weight:300;
+}
+a, a:hover {text-decoration:none !important;}
+a, button:hover, img a:hover, :hover, a img:hover { transition: all 0.1s ease 0.1s;}
+img a, a img {border:0px;}
+
+ul { list-style:none; padding:0px;}
+li {padding:0px;}
 
 /* CONTAINER */
 div#container {width:1170px; margin:0px auto; }
@@ -50,10 +61,30 @@ div#container {width:1170px; margin:0px auto; }
 /* SIDEBAR AND FRIENDS */
 
 div#sidebar {width:190px; padding:0px; position:fixed;}
-div#sidebar div#logo {margin-bottom:30px}
+div#sidebar a, div#sidebar li {color:black;}
+div#sidebar a:hover {color:white;}
+
+div#sidebar div#logo {margin-bottom:32px}
 div#sidebar div#logo div#commiebird { width:100%; text-align:center;padding:20px 0px; background:black;}
-div#sidebar div#logo div#wordmark {margin-bottom:20px;}
-div#sidebar div#nav {width:100%; background:black; padding:20px;}
+div#sidebar div#logo div#commiebird img {}
+
+div#sidebar div#logo div#wordmark {}
+
+div#sidebar div#nav {width:100%; background:white; padding:0px; margin-bottom:32px; text-transform:uppercase;}
+div#sidebar div#nav ul {}
+div#sidebar div#nav ul li {letter-spacing:1.5px; }
+div#sidebar div#nav ul li a {  padding: 9px 12px; display:block;}
+div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:4px; font-weight:400;}
+
+div#sidebar div#contact {width:100%; background:white; padding:6px 0 0; text-transform:uppercase;}
+div#sidebar div#contact ul {}
+div#sidebar div#contact ul li {padding: 6px 12px; display:block; font-size:.8em; letter-spacing:1.25px;}
+div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contact-phone {padding:0px;text-align:center;}
+div#sidebar div#contact ul li.contact-mail {border-top:2px solid white; border-bottom:2px solid white; margin-top:8px;}
+div#sidebar div#contact ul li.contact-phone {font-size:1em; }
+div#sidebar div#contact ul li a {  padding: 6px 0px; display:block; background:#eee;}
+div#sidebar div#contact ul li.contact-phone a {padding:10px 0px; font-weight:400; }
+div#sidebar div#contact ul li a:hover {  background:#9a0000; letter-spacing:2px;}
 	
 @media(min-width:1200px){
 
@@ -71,7 +102,7 @@ div#sidebar div#nav {width:100%; background:black; padding:20px;}
 }
 
 /* PRIMARY */
-div#primary {width:940px; background:gray; margin-left:230px;}
+div#primary {width:940px; margin-left:230px;}
 
 @media(min-width:1200px){
 
