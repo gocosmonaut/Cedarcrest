@@ -21,7 +21,7 @@
 body {
 
 background-attachment: fixed;
-    background-image: url(../img/fremont.jpg);
+    background-image: url(../img/willamette.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +102,7 @@ div#sidebar div#contact ul li a:hover {  background:#9a0000; letter-spacing:2px;
 }
 
 /* PRIMARY */
-div#primary {width:940px; margin-left:230px;}
+div#primary {width:940px; margin:145px 0px 0px 230px; float:right;}
 
 @media(min-width:1200px){
 

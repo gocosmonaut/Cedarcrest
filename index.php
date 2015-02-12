@@ -50,6 +50,7 @@
 <div id="primary">
 <a name="top" id="top"></a>
 <div id="projects">
+<img src="img/we-do.png" />
 <!-- Button trigger modal 01 -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01">
   Launch demo modal
