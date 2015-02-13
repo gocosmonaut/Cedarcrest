@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 <!-- Latest compiled and minified CSS -->
-<!-- <link href="css/<?php echo mt_rand(1, 4); ?>.css" rel="stylesheet" type="text/css"/> -->
-<link rel="stylesheet" href="css/1.css">
+<link href="css/<?php echo mt_rand(1, 4); ?>.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
 <!-- Optional theme -->
@@ -49,8 +49,25 @@
 
 <div id="primary">
 <a name="top" id="top"></a>
-<div id="projects">
+<div id="introduction">
 <img src="img/we-do.png" />
+<div id="intro-touts">
+<div id="intro-tout-one" class="intro-tout">
+<h3>Web Design</h3>
+<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+</div> <!-- end intro tout one -->
+<div id="intro-tout-two" class="intro-tout">
+<h3>Web Development</h3>
+<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+</div> <!-- end intro tout two -->
+<div id="intro-tout-three" class="intro-tout">
+<h3>Photography</h3>
+<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+</div> <!-- end intro tout three -->
+</div> <!-- end intro touts -->
+</div> <!-- end introduction -->
+<div id="projects">
+
 <!-- Button trigger modal 01 -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01">
   Launch demo modal

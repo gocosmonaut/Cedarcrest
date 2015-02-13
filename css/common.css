@@ -18,6 +18,7 @@
 
 .modal-backdrop { opacity:.75 !important; background:white !important;}
 
+/**
 body {
 
 background-attachment: fixed;
@@ -26,7 +27,7 @@ background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 	width:100%;
-}
+} **/
 
 p, a, button, span, li, ul, div, table {
 font-family: 'Muli', sans-serif;
@@ -102,7 +103,32 @@ div#sidebar div#contact ul li a:hover {  background:#9a0000; letter-spacing:2px;
 }
 
 /* PRIMARY */
-div#primary {width:940px; margin:145px 0px 0px 230px; float:right;}
+div#primary {float: right; margin: 0 0 0 230px; padding-top: 145px; width: 940px;}
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+}
+
+/* INTRODUCTION */
+div#introduction {width:100%; text-align:center;}
+div#introduction img {padding-bottom:15px;}
+div#intro-touts {margin:0px auto; text-align:left; }
+div.intro-tout {width:31%; margin-right:3.33%; float:left; height:150px; padding-left:20px; border-radius:4px;}
+div#intro-tout-one {background:url(../img/horse.png) top left no-repeat;}
+div#intro-tout-two {background:url(../img/horse.png) top left no-repeat;}
+div#intro-tout-three {background:url(../img/dog.png) top left no-repeat;}
+div#intro-tout-three {margin-right:0%;}
 
 @media(min-width:1200px){
 
