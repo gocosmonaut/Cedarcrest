@@ -29,7 +29,7 @@
 
 <div id="nav">
 <ul>
-<li><a href="#">Projects</a></li>
+<li><a href="#projects">Projects</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Contact</a></li>
 </ul>
@@ -54,90 +54,71 @@
 <div id="intro-touts">
 <div id="intro-tout-one" class="intro-tout">
 <h3>Web Design</h3>
-<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<p><img src="img/elephant.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+
 </div> <!-- end intro tout one -->
 <div id="intro-tout-two" class="intro-tout">
 <h3>Web Development</h3>
-<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<p><img src="img/horse.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 </div> <!-- end intro tout two -->
 <div id="intro-tout-three" class="intro-tout">
 <h3>Photography</h3>
-<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<p><img src="img/dog.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 </div> <!-- end intro tout three -->
 </div> <!-- end intro touts -->
 </div> <!-- end introduction -->
 <div id="projects">
-
+<a name="projects" id="projects"></a>
+<h1>Project Gallery</h1>
 <!-- Button trigger modal 01 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01">
-  Launch demo modal
+<button id="b01" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01" ><p>For the Love of Fuck</p>
 </button>
 
+
 <!-- Button trigger modal 02 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_02">
-  Launch demo modal
+<button id="b02" type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#myModal_02" ><p>Plowing Amie Champagne</p>
 </button>
 
 <!-- Button trigger modal 03 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_03">
-  Launch demo modal
+<button id="b03" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_03">
 </button>
 
 <!-- Button trigger modal 04 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_04">
-  Launch demo modal
+<button  id="b04" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_04">
 </button>
 
 <!-- Button trigger modal 05 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05">
-  Launch demo modal
+<button id="b05" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05">
 </button>
 
 <!-- Button trigger modal 06 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_06">
-  Launch demo modal
+<button id="b06" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_06">
 </button>
 
 <!-- Button trigger modal 07 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07">
-  Launch demo modal
+<button id="b07" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07">
 </button>
 
 <!-- Button trigger modal 08 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_08">
-  Launch demo modal
+<button id="b08" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_08">
 </button>
 
 <!-- Button trigger modal 09 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09">
-  Launch demo modal
+<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09">
 </button>
 
 <!-- Button trigger modal 10 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10">
-  Launch demo modal
+<button id="b10" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10">
 </button>
 
 <!-- Button trigger modal 11 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_11">
-  Launch demo modal
+<button  id="b11" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_11">
 </button>
 
 <!-- Button trigger modal 12 -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_12">
-  Launch demo modal
+<button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12">
 </button>
 </div> <!-- end projects -->
-<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics. He analyzed muscle forces as acting along lines connecting origins and insertions and studied joint function. He also intended to mimic some animal features in his machines. For example, he studied the flight of birds to find means by which humans could fly. Because horses were the principal source of mechanical power in that time, he studied their muscular systems to design machines that would better benefit from the forces applied by this animal.[12]
-</p><p>
-Galileo Galilei was interested in the strength of bones and suggested that bones are hollow for this affords maximum strength with minimum weight. He noted that animals' masses increase disproportionately to their size, and their bones must consequently also disproportionately increase in girth, adapting to loadbearing rather than mere size the bending strength of a tubular structure such as a bone is increased relative to its weight. This surely was one of the first grasps of principles of biological optimization.[12]
-</p><p>
-<p>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics. He analyzed muscle forces as acting along lines connecting origins and insertions and studied joint function. He also intended to mimic some animal features in his machines. For example, he studied the flight of birds to find means by which humans could fly. Because horses were the principal source of mechanical power in that time, he studied their muscular systems to design machines that would better benefit from the forces applied by this animal.[12]
-</p><p>
-Galileo Galilei was interested in the strength of bones and suggested that bones are hollow for this affords maximum strength with minimum weight. He noted that animals' masses increase disproportionately to their size, and their bones must consequently also disproportionately increase in girth, adapting to loadbearing rather than mere size the bending strength of a tubular structure such as a bone is increased relative to its weight. This surely was one of the first grasps of principles of biological optimization.[12]
-</p><p>
-In the 16th century, Descartes suggested a philosophic system whereby all living systems, including the human body (but not the soul), are simply machines ruled by the same mechanical laws, an idea that did much to promote and sustain biomechanical study. Giovanni Alfonso Borelli embraced this idea and studied walking, running, jumping, the flight of birds, the swimming of fish, and even the piston action of the heart within a mechanical framework. He could determine the position of the human center of gravity, calculate and measured inspired and expired air volumes, and showed that inspiration is muscle-driven and expiration is due to tissue elasticity. Borelli was the first to understand that the levers of the musculoskeletal system magnify motion rather than force, so that muscles must produce much larger forces than those resisting the motion. Influenced by the work of Galileo, whom he personally knew, he had an intuitive understanding of static equilibrium in various joints of the human body well before Newton published the laws of motion.[13]</p>
-In the 16th century, Descartes suggested a philosophic system whereby all living systems, including the human body (but not the soul), are simply machines ruled by the same mechanical laws, an idea that did much to promote and sustain biomechanical study. Giovanni Alfonso Borelli embraced this idea and studied walking, running, jumping, the flight of birds, the swimming of fish, and even the piston action of the heart within a mechanical framework. He could determine the position of the human center of gravity, calculate and measured inspired and expired air volumes, and showed that inspiration is muscle-driven and expiration is due to tissue elasticity. Borelli was the first to understand that the levers of the musculoskeletal system magnify motion rather than force, so that muscles must produce much larger forces than those resisting the motion. Influenced by the work of Galileo, whom he personally knew, he had an intuitive understanding of static equilibrium in various joints of the human body well before Newton published the laws of motion.[13]</p>
 </div><!-- end primary -->
 </div> <!-- end container -->
 

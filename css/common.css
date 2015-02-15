@@ -17,6 +17,7 @@
 
 
 .modal-backdrop { opacity:.75 !important; background:white !important;}
+body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scroll; }
 
 /**
 body {
@@ -34,7 +35,8 @@ font-family: 'Muli', sans-serif;
  font-weight:300;
 }
 a, a:hover {text-decoration:none !important;}
-a, button:hover, img a:hover, :hover, a img:hover { transition: all 0.1s ease 0.1s;}
+a, button:hover, img a:hover, :hover, a img:hover, text-shadow{ transition: all 0.2s ease 0.1s;}
+button { transition: all 1s ease .5s;}
 img a, a img {border:0px;}
 
 ul { list-style:none; padding:0px;}
@@ -71,10 +73,10 @@ div#sidebar div#logo div#commiebird img {}
 
 div#sidebar div#logo div#wordmark {}
 
-div#sidebar div#nav {width:100%; background:white; padding:0px; margin-bottom:32px; text-transform:uppercase;}
+div#sidebar div#nav {width:100%; background:black; padding:0px; margin-bottom:32px; text-transform:uppercase;}
 div#sidebar div#nav ul {}
 div#sidebar div#nav ul li {letter-spacing:1.5px; }
-div#sidebar div#nav ul li a {  padding: 9px 12px; display:block;}
+div#sidebar div#nav ul li a {  padding: 9px 12px; display:block; color:white;}
 div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:4px; font-weight:400;}
 
 div#sidebar div#contact {width:100%; background:white; padding:6px 0 0; text-transform:uppercase;}
@@ -103,7 +105,7 @@ div#sidebar div#contact ul li a:hover {  background:#9a0000; letter-spacing:2px;
 }
 
 /* PRIMARY */
-div#primary {float: right; margin: 0 0 0 230px; padding-top: 145px; width: 940px;}
+div#primary {float: right; margin: 0 0 0 230px; padding-top: 88px; width: 940px;}
 
 @media(min-width:1200px){
 
@@ -122,13 +124,53 @@ div#primary {float: right; margin: 0 0 0 230px; padding-top: 145px; width: 940px
 
 /* INTRODUCTION */
 div#introduction {width:100%; text-align:center;}
-div#introduction img {padding-bottom:15px;}
-div#intro-touts {margin:0px auto; text-align:left; }
-div.intro-tout {width:31%; margin-right:3.33%; float:left; height:150px; padding-left:20px; border-radius:4px;}
-div#intro-tout-one {background:url(../img/horse.png) top left no-repeat;}
-div#intro-tout-two {background:url(../img/horse.png) top left no-repeat;}
-div#intro-tout-three {background:url(../img/dog.png) top left no-repeat;}
+div#introduction img {padding-bottom:18px;}
+div#introduction div#intro-touts {margin:0px auto; text-align:left; position:relative;}
+div#introduction div#intro-touts img {float:right; margin:0px 0px 10px 15px; padding:0px;}
+div#introduction div#intro-touts  h3 {margin:0px; padding:8px 10px; font-size:1.15em; text-transform:uppercase; letter-spacing:0.5px; background:#aaa;  font-weight:300; color:white;}
+div#intro-touts p {padding:10px; }
+div.intro-tout {width:31%; margin-right:3.33%; float:left; background:white; }
+div#intro-tout-one { }
+div#intro-tout-two {}
 div#intro-tout-three {margin-right:0%;}
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+}
+
+/* PROJECTS */
+div#projects {width:100%;padding:4%; margin-top:20px; float:left;}
+div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border-top:2px solid #222; border-bottom:2px solid #222; border-left:0px; border-right:0px; font-size:1em;}
+div#projects .btn-primary.btn-lg:hover {text-shadow:2px 2px 4px black; opacity:.7; box-shadow:-2px 2px 4px black;}
+div#projects .btn-primary.btn-lg.right-col {margin-right:0%;}
+
+div#projects button#b01 {background:url(../img/fremont.jpg); background-position:top left;}
+div#projects button#b01:hover {background:url(../img/fremont.jpg); background-position:bottom right;}
+
+div#projects button#b02 {background:url(../img/willamette.jpg); background-position:top left;}
+div#projects button#b02:hover {background:url(../img/willamette.jpg); background-position:bottom right;}
+
+div#projects button#b03 {background:url(../img/fremont.jpg);}
+div#projects button#b04 {background:url(../img/willamette.jpg);}
+div#projects button#b05 {background:url(../img/fremont.jpg);}
+div#projects button#b06 {background:url(../img/willamette.jpg);}
+div#projects button#b07 {background:url(../img/fremont.jpg);}
+div#projects button#b08 {background:url(../img/willamette.jpg);}
+div#projects button#b09 {background:url(../img/fremont.jpg);}
+div#projects button#b10 {background:url(../img/willamette.jpg);}
+div#projects button#b11 {background:url(../img/fremont.jpg);}
+div#projects button#b12 {background:url(../img/willamette.jpg);}
 
 @media(min-width:1200px){
 
