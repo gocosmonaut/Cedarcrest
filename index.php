@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 <!-- Latest compiled and minified CSS -->
-<link href="css/<?php echo mt_rand(1, 4); ?>.css" rel="stylesheet" type="text/css"/>
+<link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
@@ -19,7 +19,7 @@
 
 
 <div id="container">
-
+<a name="top" id="top"></a>
 <div id="sidebar">
 
 <div id="logo">
@@ -48,9 +48,9 @@
 </div> <!-- end sidebar -->
 
 <div id="primary">
-<a name="top" id="top"></a>
+<p class="history" data-spy="affix" data-offset-top="80">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or freestyle</p>
 <div id="introduction">
-<img src="img/we-do.png" />
+<img src="img/we-specialize-in-rev.png" />
 <div id="intro-touts">
 <div id="intro-tout-one" class="intro-tout">
 <h3>Web Design</h3>
@@ -69,7 +69,7 @@
 </div> <!-- end introduction -->
 <div id="projects">
 <a name="projects" id="projects"></a>
-<h1>Project Gallery</h1>
+<p class="gallery" /><img src="img/project-gallery.png" ></p>
 <!-- Button trigger modal 01 -->
 <button id="b01" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01" ><p>For the Love of Fuck</p>
 </button>
@@ -116,7 +116,7 @@
 </button>
 
 <!-- Button trigger modal 12 -->
-<button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12">
+<button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12"><p>For the Love of Fuck</p>
 </button>
 </div> <!-- end projects -->
 </div><!-- end primary -->

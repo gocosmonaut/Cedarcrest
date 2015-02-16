@@ -35,12 +35,14 @@ font-family: 'Muli', sans-serif;
  font-weight:300;
 }
 a, a:hover {text-decoration:none !important;}
-a, button:hover, img a:hover, :hover, a img:hover, text-shadow{ transition: all 0.2s ease 0.1s;}
+a, button:hover, img a:hover, :hover, a img:hover, text-shadow, font-size { transition: all 0.2s ease 0.1s;}
 button { transition: all 1s ease .5s;}
 img a, a img {border:0px;}
 
 ul { list-style:none; padding:0px;}
 li {padding:0px;}
+
+.glyphicon {padding:0px 6px; font-size:.8em;}
 
 /* CONTAINER */
 div#container {width:1170px; margin:0px auto; }
@@ -64,7 +66,7 @@ div#container {width:1170px; margin:0px auto; }
 /* SIDEBAR AND FRIENDS */
 
 div#sidebar {width:190px; padding:0px; position:fixed;}
-div#sidebar a, div#sidebar li {color:black;}
+div#sidebar a, div#sidebar li {color:white;}
 div#sidebar a:hover {color:white;}
 
 div#sidebar div#logo {margin-bottom:32px}
@@ -79,15 +81,15 @@ div#sidebar div#nav ul li {letter-spacing:1.5px; }
 div#sidebar div#nav ul li a {  padding: 9px 12px; display:block; color:white;}
 div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:4px; font-weight:400;}
 
-div#sidebar div#contact {width:100%; background:white; padding:6px 0 0; text-transform:uppercase;}
+div#sidebar div#contact {width:100%; background:black; padding:6px 0 0; text-transform:uppercase;}
 div#sidebar div#contact ul {}
 div#sidebar div#contact ul li {padding: 6px 12px; display:block; font-size:.8em; letter-spacing:1.25px;}
 div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contact-phone {padding:0px;text-align:center;}
 div#sidebar div#contact ul li.contact-mail {border-top:2px solid white; border-bottom:2px solid white; margin-top:8px;}
 div#sidebar div#contact ul li.contact-phone {font-size:1em; }
-div#sidebar div#contact ul li a {  padding: 6px 0px; display:block; background:#eee;}
+div#sidebar div#contact ul li a {  padding: 6px 0px; display:block; background:#9a0000;}
 div#sidebar div#contact ul li.contact-phone a {padding:10px 0px; font-weight:400; }
-div#sidebar div#contact ul li a:hover {  background:#9a0000; letter-spacing:2px;}
+div#sidebar div#contact ul li a:hover {  background:#333; letter-spacing:2px; font-size:1.05em;}
 	
 @media(min-width:1200px){
 
@@ -105,8 +107,10 @@ div#sidebar div#contact ul li a:hover {  background:#9a0000; letter-spacing:2px;
 }
 
 /* PRIMARY */
-div#primary {float: right; margin: 0 0 0 230px; padding-top: 88px; width: 940px;}
-
+div#primary {float: right; margin: 0 0 0 230px; padding-top: 0px; width: 940px;}
+div#primary p.history {font-size:.95em;}
+div#primary p.history.affix-top {padding:4px; background:white; position:fixed; background:url(../img/history-backer.png); color:white;text-align:center;  z-index:9999; width:938px; border-bottom:1px solid white; border-right:1px solid white; border-left:1px solid white;  border-radius: 0 0 9px 9px; letter-spacing:0.5px;}
+div#primary p.history.affix {padding:4px; background:#111;position:fixed; color:#ddd;text-align:center;  z-index:9999; width:938px; border-right:1px solid black; border-left:1px solid black; border-bottom:6px double white;  border-radius: 0px; letter-spacing:0.5px}
 @media(min-width:1200px){
 
 }
@@ -124,10 +128,10 @@ div#primary {float: right; margin: 0 0 0 230px; padding-top: 88px; width: 940px;
 
 /* INTRODUCTION */
 div#introduction {width:100%; text-align:center;}
-div#introduction img {padding-bottom:18px;}
+div#introduction img {padding:100px 0px 45px;}
 div#introduction div#intro-touts {margin:0px auto; text-align:left; position:relative;}
 div#introduction div#intro-touts img {float:right; margin:0px 0px 10px 15px; padding:0px;}
-div#introduction div#intro-touts  h3 {margin:0px; padding:8px 10px; font-size:1.15em; text-transform:uppercase; letter-spacing:0.5px; background:#aaa;  font-weight:300; color:white;}
+div#introduction div#intro-touts  h3 {margin:0px; padding:8px 10px; font-size:1.15em; text-transform:uppercase; letter-spacing:0.75px; background:#aaa;  font-weight:300; color:white;}
 div#intro-touts p {padding:10px; }
 div.intro-tout {width:31%; margin-right:3.33%; float:left; background:white; }
 div#intro-tout-one { }
@@ -150,9 +154,10 @@ div#intro-tout-three {margin-right:0%;}
 }
 
 /* PROJECTS */
-div#projects {width:100%;padding:4%; margin-top:20px; float:left;}
-div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border-top:2px solid #222; border-bottom:2px solid #222; border-left:0px; border-right:0px; font-size:1em;}
-div#projects .btn-primary.btn-lg:hover {text-shadow:2px 2px 4px black; opacity:.7; box-shadow:-2px 2px 4px black;}
+div#projects {width:100%;padding:4%; margin-top:50px; float:left; background:url(../img/project-backer.png);}
+div#projects p.gallery {text-align:center; padding:20px 0px; margin-bottom:20px; background:url(../img/history-backer.png);}
+div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border:3px solid white; font-size:1em;}
+div#projects .btn-primary.btn-lg:hover {text-shadow:2px 2px 4px black; opacity:.8; box-shadow:-2px 2px 4px black;}
 div#projects .btn-primary.btn-lg.right-col {margin-right:0%;}
 
 div#projects button#b01 {background:url(../img/fremont.jpg); background-position:top left;}
@@ -161,16 +166,36 @@ div#projects button#b01:hover {background:url(../img/fremont.jpg); background-po
 div#projects button#b02 {background:url(../img/willamette.jpg); background-position:top left;}
 div#projects button#b02:hover {background:url(../img/willamette.jpg); background-position:bottom right;}
 
-div#projects button#b03 {background:url(../img/fremont.jpg);}
-div#projects button#b04 {background:url(../img/willamette.jpg);}
-div#projects button#b05 {background:url(../img/fremont.jpg);}
-div#projects button#b06 {background:url(../img/willamette.jpg);}
-div#projects button#b07 {background:url(../img/fremont.jpg);}
-div#projects button#b08 {background:url(../img/willamette.jpg);}
-div#projects button#b09 {background:url(../img/fremont.jpg);}
-div#projects button#b10 {background:url(../img/willamette.jpg);}
-div#projects button#b11 {background:url(../img/fremont.jpg);}
-div#projects button#b12 {background:url(../img/willamette.jpg);}
+div#projects button#b03 {background:url(../img/stjohns.jpg); background-position:top left;}
+div#projects button#b03:hover {background:url(../img/stjohns.jpg); background-position:bottom right;}
+
+div#projects button#b04 {background:url(../img/i5south.jpg); background-position:top left;}
+div#projects button#b04:hover {background:url(../img/i5south.jpg); background-position:bottom right;}
+
+div#projects button#b05 {background:url(../img/fremont.jpg); background-position:top left;}
+div#projects button#b05:hover {background:url(../img/fremont.jpg); background-position:bottom right;}
+
+div#projects button#b06 {background:url(../img/esplanade.jpg); background-position:top left;}
+div#projects button#b06:hover {background:url(../img/esplanade.jpg); background-position:bottom right;}
+
+div#projects button#b07 {background:url(../img/stjohns.jpg); background-position:top left;}
+div#projects button#b07:hover {background:url(../img/stjohns.jpg); background-position:bottom right;}
+
+div#projects button#b08 {background:url(../img/i5south.jpg); background-position:top center;}
+div#projects button#b08:hover {background:url(../img/i5south.jpg); background-position:bottom center;}
+
+div#projects button#b09 {background:url(../img/fremont.jpg); background-position:top left;}
+div#projects button#b09:hover {background:url(../img/fremont.jpg); background-position:bottom right;}
+
+div#projects button#b10 {background:url(../img/willamette.jpg); background-position:top left;}
+div#projects button#b10:hover {background:url(../img/willamette.jpg); background-position:bottom right;}
+
+div#projects button#b11 {background:url(../img/stjohns.jpg); background-position:top left;}
+div#projects button#b11:hover {background:url(../img/stjohns.jpg); background-position:bottom right;}
+
+div#projects button#b12 {background:url(../img/i5south.jpg); background-position:top left;}
+div#projects button#b12:hover {background:url(../img/i5south.jpg); background-position:bottom right;}
+
 
 @media(min-width:1200px){
 
