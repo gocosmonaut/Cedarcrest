@@ -1,12 +1,4 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-
-background-attachment: fixed;
-    background-image: url(../img/stjohns.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-	width:100%;
-}
+div#primary div#marquee {height:275px; margin:42px auto; background:url(../img/esplanade.jpg); text-align:center;}

@@ -42,7 +42,7 @@ img a, a img {border:0px;}
 ul { list-style:none; padding:0px;}
 li {padding:0px;}
 
-.glyphicon {padding:0px 6px; font-size:.8em;}
+.glyphicon {padding:0px 6px; font-size:.8em; color:#9a0000;}
 
 /* CONTAINER */
 div#container {width:1170px; margin:0px auto; }
@@ -83,7 +83,7 @@ div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:4px; fon
 
 div#sidebar div#contact {width:100%; background:black; padding:6px 0 0; text-transform:uppercase;}
 div#sidebar div#contact ul {}
-div#sidebar div#contact ul li {padding: 6px 12px; display:block; font-size:.8em; letter-spacing:1.25px;}
+div#sidebar div#contact ul li {padding: 5px 12px; display:block; font-size:.8em; letter-spacing:1.25px;}
 div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contact-phone {padding:0px;text-align:center;}
 div#sidebar div#contact ul li.contact-mail {border-top:2px solid white; border-bottom:2px solid white; margin-top:8px;}
 div#sidebar div#contact ul li.contact-phone {font-size:1em; }
@@ -108,9 +108,9 @@ div#sidebar div#contact ul li a:hover {  background:#333; letter-spacing:2px; fo
 
 /* PRIMARY */
 div#primary {float: right; margin: 0 0 0 230px; padding-top: 0px; width: 940px;}
-div#primary p.history {font-size:.95em;}
-div#primary p.history.affix-top {padding:4px; background:white; position:fixed; background:url(../img/history-backer.png); color:white;text-align:center;  z-index:9999; width:938px; border-bottom:1px solid white; border-right:1px solid white; border-left:1px solid white;  border-radius: 0 0 9px 9px; letter-spacing:0.5px;}
-div#primary p.history.affix {padding:4px; background:#111;position:fixed; color:#ddd;text-align:center;  z-index:9999; width:938px; border-right:1px solid black; border-left:1px solid black; border-bottom:6px double white;  border-radius: 0px; letter-spacing:0.5px}
+div#primary p.history {font-size:.95em; margin-bottom:0px;text-align:center; letter-spacing:0.5px;padding:6px;z-index:9999; width:940px;position:fixed;}
+div#primary p.history.affix-top {background:white;  color:black;   border-bottom:1px solid white; border-right:1px solid white; border-left:1px solid white; }
+div#primary p.history.affix { background:#111; color:#ddd;text-align:center;  z-index:9999; border-right:0px solid black; border-left:0px solid black; border-bottom:6px double white;   }
 @media(min-width:1200px){
 
 }
@@ -126,9 +126,31 @@ div#primary p.history.affix {padding:4px; background:#111;position:fixed; color:
 @media (max-width:480px){
 }
 
+/***--MARQUEE-- ***/
+
+div#primary div#marquee {height:275px; margin:42px auto;  text-align:center;}
+div#primary div#marquee p {background:white; width:340px; margin:215px 300px 0px; float:left;}
+div#primary div#marquee img {padding:10px 0px; margin:0px auto;}
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+}
+
+
 /* INTRODUCTION */
 div#introduction {width:100%; text-align:center;}
-div#introduction img {padding:100px 0px 45px;}
+
 div#introduction div#intro-touts {margin:0px auto; text-align:left; position:relative;}
 div#introduction div#intro-touts img {float:right; margin:0px 0px 10px 15px; padding:0px;}
 div#introduction div#intro-touts  h3 {margin:0px; padding:8px 10px; font-size:1.15em; text-transform:uppercase; letter-spacing:0.75px; background:#aaa;  font-weight:300; color:white;}
@@ -154,10 +176,10 @@ div#intro-tout-three {margin-right:0%;}
 }
 
 /* PROJECTS */
-div#projects {width:100%;padding:4%; margin-top:50px; float:left; background:url(../img/project-backer.png);}
-div#projects p.gallery {text-align:center; padding:20px 0px; margin-bottom:20px; background:url(../img/history-backer.png);}
-div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border:3px solid white; font-size:1em;}
-div#projects .btn-primary.btn-lg:hover {text-shadow:2px 2px 4px black; opacity:.8; box-shadow:-2px 2px 4px black;}
+div#projects {width:100%;padding:4%; margin-top:50px; float:left; }
+div#projects p.gallery {text-align:center; padding:20px 0px; margin-bottom:20px; }
+div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border:3px solid white; font-size:1em; color:white;}
+div#projects .btn-primary.btn-lg:hover {opacity:.9; box-shadow:-2px 2px 4px black; color:black;}
 div#projects .btn-primary.btn-lg.right-col {margin-right:0%;}
 
 div#projects button#b01 {background:url(../img/fremont.jpg); background-position:top left;}
@@ -169,23 +191,23 @@ div#projects button#b02:hover {background:url(../img/willamette.jpg); background
 div#projects button#b03 {background:url(../img/stjohns.jpg); background-position:top left;}
 div#projects button#b03:hover {background:url(../img/stjohns.jpg); background-position:bottom right;}
 
-div#projects button#b04 {background:url(../img/i5south.jpg); background-position:top left;}
-div#projects button#b04:hover {background:url(../img/i5south.jpg); background-position:bottom right;}
+div#projects button#b04 {background:url(../img/thumbs/sbre.jpg); background-position:top left;}
+div#projects button#b04:hover {background:url(../img/thumbs/sbre.jpg); background-position:bottom right;}
 
 div#projects button#b05 {background:url(../img/fremont.jpg); background-position:top left;}
 div#projects button#b05:hover {background:url(../img/fremont.jpg); background-position:bottom right;}
 
-div#projects button#b06 {background:url(../img/esplanade.jpg); background-position:top left;}
-div#projects button#b06:hover {background:url(../img/esplanade.jpg); background-position:bottom right;}
+div#projects button#b06 {background:url(../img/thumbs/antitheft.jpg); background-position:top left;}
+div#projects button#b06:hover {background:url(../img/thumbs/antitheft.jpg); background-position:bottom right;}
 
-div#projects button#b07 {background:url(../img/stjohns.jpg); background-position:top left;}
-div#projects button#b07:hover {background:url(../img/stjohns.jpg); background-position:bottom right;}
+div#projects button#b07 {background:url(../img/thumbs/deacon.jpg); background-position:top left;}
+div#projects button#b07:hover {background:url(../img/thumbs/deacon.jpg); background-position:bottom right;}
 
 div#projects button#b08 {background:url(../img/i5south.jpg); background-position:top center;}
 div#projects button#b08:hover {background:url(../img/i5south.jpg); background-position:bottom center;}
 
-div#projects button#b09 {background:url(../img/fremont.jpg); background-position:top left;}
-div#projects button#b09:hover {background:url(../img/fremont.jpg); background-position:bottom right;}
+div#projects button#b09 {background:url(../img/thumbs/mhco.jpg); background-position:top left;}
+div#projects button#b09:hover {background:url(../img/thumbs/mhco.jpg); background-position:bottom right;}
 
 div#projects button#b10 {background:url(../img/willamette.jpg); background-position:top left;}
 div#projects button#b10:hover {background:url(../img/willamette.jpg); background-position:bottom right;}

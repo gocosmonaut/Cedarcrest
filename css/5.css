@@ -1,14 +1,4 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-
-background-attachment: fixed;
-    background-image: url(../img/i5south.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
-	width:100%;
-}
-
-div#sidebar div#logo div#wordmark { background:#9a0000;}
+div#primary div#marquee {height:275px; margin:42px auto; background:url(../img/whitestag.jpg); text-align:center;}

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 <!-- Latest compiled and minified CSS -->
-<link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/>
+<link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/> 
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
@@ -47,10 +47,12 @@
 </div> <!-- end contact -->
 </div> <!-- end sidebar -->
 
-<div id="primary">
-<p class="history" data-spy="affix" data-offset-top="80">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or freestyle</p>
+<div id="primary"><p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
+<div id="marquee">
+<p><img src="img/we-specialize-in-rev.png" /></p>
+</div> <!-- end marquee -->
 <div id="introduction">
-<img src="img/we-specialize-in-rev.png" />
+
 <div id="intro-touts">
 <div id="intro-tout-one" class="intro-tout">
 <h3>Web Design</h3>
@@ -84,7 +86,7 @@
 </button>
 
 <!-- Button trigger modal 04 -->
-<button  id="b04" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_04">
+<button  id="b04" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_04"><p>SBRE</p>
 </button>
 
 <!-- Button trigger modal 05 -->
@@ -92,11 +94,11 @@
 </button>
 
 <!-- Button trigger modal 06 -->
-<button id="b06" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_06">
+<button id="b06" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_06"><p>Anti-Theft</p>
 </button>
 
 <!-- Button trigger modal 07 -->
-<button id="b07" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07">
+<button id="b07" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07"><p>Deacon Corp.</p>
 </button>
 
 <!-- Button trigger modal 08 -->
@@ -104,7 +106,7 @@
 </button>
 
 <!-- Button trigger modal 09 -->
-<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09">
+<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09"><p>MHCO</p>
 </button>
 
 <!-- Button trigger modal 10 -->
