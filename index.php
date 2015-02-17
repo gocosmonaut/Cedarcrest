@@ -30,8 +30,9 @@
 <div id="nav">
 <ul>
 <li><a href="#projects">Projects</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Contact</a></li>
+<li><a href="#photography">Photography</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
 </div> <!-- end nav -->
 <div id="contact">
@@ -70,82 +71,112 @@
 </div> <!-- end intro touts -->
 </div> <!-- end introduction -->
 <div id="projects">
-<a name="projects" id="projects"></a>
+
 <p class="gallery" /><img src="img/project-gallery.png" ></p>
+<a name="projects" id="projects"></a>
 <!-- Button trigger modal 01 -->
-<button id="b01" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01" ><p>For the Love of Fuck</p>
+<button id="b01" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01" ><p>Deacon Corp.</p>
 </button>
 
 
 <!-- Button trigger modal 02 -->
-<button id="b02" type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#myModal_02" ><p>Plowing Amie Champagne</p>
+<button id="b02" type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#myModal_02" ><p>Kavi Coporation</p>
 </button>
 
 <!-- Button trigger modal 03 -->
-<button id="b03" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_03">
+<button id="b03" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_03"><p>SBRE Summit</p>
 </button>
 
 <!-- Button trigger modal 04 -->
-<button  id="b04" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_04"><p>SBRE</p>
+<button  id="b04" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_04"><p>Confluence<br />Wealth Management</p>
 </button>
 
 <!-- Button trigger modal 05 -->
-<button id="b05" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05">
+<button id="b05" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05"><p>Quality Chain Corp.</p>
 </button>
 
 <!-- Button trigger modal 06 -->
-<button id="b06" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_06"><p>Anti-Theft</p>
+<button id="b06" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_06"><p>MHCO</p>
 </button>
 
 <!-- Button trigger modal 07 -->
-<button id="b07" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07"><p>Deacon Corp.</p>
+<button id="b07" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07"><p>Identity Theft<br />Protection</p>
 </button>
 
 <!-- Button trigger modal 08 -->
-<button id="b08" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_08">
+<button id="b08" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_08"><p>Bukers</p>
 </button>
 
 <!-- Button trigger modal 09 -->
-<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09"><p>MHCO</p>
+<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09"><p>Fairway America</p>
 </button>
 
 <!-- Button trigger modal 10 -->
-<button id="b10" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10">
+<button id="b10" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10"><p>Commonwealth<br />Real Estate Services<p>
 </button>
 
 <!-- Button trigger modal 11 -->
-<button  id="b11" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_11">
+<button  id="b11" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_11"><p>Job Growers, Inc.</p>
 </button>
 
 <!-- Button trigger modal 12 -->
-<button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12"><p>For the Love of Fuck</p>
+<button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12"><p>West Bearing<br />Investments</p>
 </button>
+<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
 </div> <!-- end projects -->
+
+<div id="photography">
+<p><img src="img/photography.png" /></p>
+<a name="photography" id="photography"></a>
+<div class="photo-col">1</div>
+<div class="photo-col">2</div>Stock
+<div class="photo-col">3</div>
+<div class="photo-col">4</div>Product
+<div class="photo-col">5</div>
+<div class="photo-col">6</div>Staff
+<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
+</div> <!-- end photography -->
+
+<div id="about">
+<a name="about" id="about"></a>
+About
+</div> <!-- end about -->
+
+<div id="contact">
+<a name="contact" id="contact"></a>
+Contact
+</div> <!-- end about -->
+
+<div id="social">
+<a class="twitter-timeline"  href="https://twitter.com/deitschel"  data-widget-id="460171531847352320">Tweets by @deitschel</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<iframe id="bookface" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FGoCosmonaut&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=false" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>
+<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
+</div> <!-- end projects -->
+
+</div> <!-- end social -->
+
 </div><!-- end primary -->
-</div> <!-- end container -->
-
-
-
 <!-- MODALS -->
+<div id="local-modals">
+
 <!-- Modal 01 -->
 <div class="modal fade" id="myModal_01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel_01">Modal title 1</h4>
+        <h4 class="modal-title" id="myModalLabel_01">Deacon Corp. Web Site Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <img src="img/screens/deacon_portfolio.jpg" />
       </div>
     </div>
   </div>
 </div>
-
+<!-- End Modal 01 -->
 
 <!-- Modal 02 -->
 <div class="modal fade" id="myModal_02" tabindex="0" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -153,18 +184,196 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel_02">Modal title 2</h4>
+        <h4 class="modal-title" id="myModalLabel_02">KAVI Corporation Web Design</h4>
+        <p>A responsive Drupal 7 site.</p>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <img src="img/screens/kavi.jpg" />
       </div>
     </div>
   </div>
-</div><!-- END MODALS -->
+</div>
+<!-- End Modal 02 -->
+
+<!-- Modal 03 -->
+<div class="modal fade" id="myModal_03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_03">Small Business Real Estate (SBRE) Summit Web Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/sbre_summit.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 03 -->
+
+<!-- Modal 04 -->
+<div class="modal fade" id="myModal_04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_04">Confluence Wealth Management Web Design</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/confluence.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 04 -->
+
+<!-- Modal 05 -->
+<div class="modal fade" id="myModal_05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_05">Quality Chain Corp. Web Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/qc.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 05 -->
+
+<!-- Modal 06 -->
+<div class="modal fade" id="myModal_06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_06">Manufactured Housing Communities of Oregon (MHCO) Web Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/mhco.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 06 -->
+
+<!-- Modal 07 -->
+<div class="modal fade" id="myModal_07" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_07">Identity Theft Protection</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/intel_ipt.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 07 -->
+
+<!-- Modal 08 -->
+<div class="modal fade" id="myModal_08" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_08">Bukers Taxanalysis Web Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/bukers.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 08 -->
+
+<!-- Modal 09 -->
+<div class="modal fade" id="myModal_09" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_09">Fairway America Web Site Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/fairway_america.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 09 -->
+
+<!-- Modal 10 -->
+<div class="modal fade" id="myModal_10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_10">Commonwealth Real Estate Services Web Site Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/commonwealth.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 10 -->
+
+<!-- Modal 11 -->
+<div class="modal fade" id="myModal_11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_11">Job Growers, Inc. Web Design and Development</h4>
+        <p>Drupal 6 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/job_growers.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 11 -->
+
+<!-- Modal 12 -->
+<div class="modal fade" id="myModal_12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_12">West Bearing Investments Web Site Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/westbearing.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 12 -->
+  
+  
+  
+  </div> <!-- end local modals -->
+</div> <!-- end container -->
+
+
+
+
+
 <script>
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

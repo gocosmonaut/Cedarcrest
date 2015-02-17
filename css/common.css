@@ -16,7 +16,7 @@
 }
 
 
-.modal-backdrop { opacity:.75 !important; background:white !important;}
+.modal-backdrop { opacity:.6 !important; background:black !important;}
 body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scroll; }
 
 /**
@@ -43,6 +43,10 @@ ul { list-style:none; padding:0px;}
 li {padding:0px;}
 
 .glyphicon {padding:0px 6px; font-size:.8em; color:#9a0000;}
+p.top-return  { text-align:center; font-size:1em; margin:0px auto;}
+p.top-return a {color:#9a0000;padding:5px; border-radius:0px; background:#eee;}
+p.top-return a:hover { background:#9a0000; color:white; border-radius:6px;}
+button.close {font-size:36px; opacity:1.0;}
 
 /* CONTAINER */
 div#container {width:1170px; margin:0px auto; }
@@ -108,9 +112,9 @@ div#sidebar div#contact ul li a:hover {  background:#333; letter-spacing:2px; fo
 
 /* PRIMARY */
 div#primary {float: right; margin: 0 0 0 230px; padding-top: 0px; width: 940px;}
-div#primary p.history {font-size:.95em; margin-bottom:0px;text-align:center; letter-spacing:0.5px;padding:6px;z-index:9999; width:940px;position:fixed;}
+div#primary p.history {font-size:.95em; margin-bottom:0px;text-align:center; letter-spacing:0.5px;padding:6px;z-index:1; width:940px;position:fixed;}
 div#primary p.history.affix-top {background:white;  color:black;   border-bottom:1px solid white; border-right:1px solid white; border-left:1px solid white; }
-div#primary p.history.affix { background:#111; color:#ddd;text-align:center;  z-index:9999; border-right:0px solid black; border-left:0px solid black; border-bottom:6px double white;   }
+div#primary p.history.affix { background:#111; color:#ddd;text-align:center;   border-right:0px solid black; border-left:0px solid black; border-bottom:6px double white;   }
 @media(min-width:1200px){
 
 }
@@ -179,44 +183,44 @@ div#intro-tout-three {margin-right:0%;}
 div#projects {width:100%;padding:4%; margin-top:50px; float:left; }
 div#projects p.gallery {text-align:center; padding:20px 0px; margin-bottom:20px; }
 div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border:3px solid white; font-size:1em; color:white;}
-div#projects .btn-primary.btn-lg:hover {opacity:.9; box-shadow:-2px 2px 4px black; color:black;}
+div#projects .btn-primary.btn-lg:hover {opacity:.9; box-shadow:-1px 1px 3px black; color:red;}
 div#projects .btn-primary.btn-lg.right-col {margin-right:0%;}
 
-div#projects button#b01 {background:url(../img/fremont.jpg); background-position:top left;}
-div#projects button#b01:hover {background:url(../img/fremont.jpg); background-position:bottom right;}
+div#projects button#b01 {background:url(../img/thumbs/deacon.jpg); background-position:top center;}
+div#projects button#b01:hover {background:url(../img/thumbs/deacon.jpg); background-position:bottom center;}
 
-div#projects button#b02 {background:url(../img/willamette.jpg); background-position:top left;}
-div#projects button#b02:hover {background:url(../img/willamette.jpg); background-position:bottom right;}
+div#projects button#b02 {background:url(../img/thumbs/kavi.jpg); background-position:top center;}
+div#projects button#b02:hover {background:url(../img/thumbs/kavi.jpg); background-position:bottom center;}
 
-div#projects button#b03 {background:url(../img/stjohns.jpg); background-position:top left;}
-div#projects button#b03:hover {background:url(../img/stjohns.jpg); background-position:bottom right;}
+div#projects button#b03 {background:url(../img/thumbs/sbre.jpg); background-position:top center; }
+div#projects button#b03:hover {background:url(../img/thumbs/sbre.jpg); background-position:bottom center;}
 
-div#projects button#b04 {background:url(../img/thumbs/sbre.jpg); background-position:top left;}
-div#projects button#b04:hover {background:url(../img/thumbs/sbre.jpg); background-position:bottom right;}
+div#projects button#b04 {background:url(../img/thumbs/confluence.jpg); background-position:top center;}
+div#projects button#b04:hover {background:url(../img/thumbs/confluence.jpg); background-position:bottom center;}
 
-div#projects button#b05 {background:url(../img/fremont.jpg); background-position:top left;}
-div#projects button#b05:hover {background:url(../img/fremont.jpg); background-position:bottom right;}
+div#projects button#b05 {background:url(../img/thumbs/qc.jpg); background-position:top center;}
+div#projects button#b05:hover {background:url(../img/thumbs/qc.jpg); background-position:bottom center;}
 
-div#projects button#b06 {background:url(../img/thumbs/antitheft.jpg); background-position:top left;}
-div#projects button#b06:hover {background:url(../img/thumbs/antitheft.jpg); background-position:bottom right;}
+div#projects button#b06 {background:url(../img/thumbs/mhco.jpg); background-position:top center;}
+div#projects button#b06:hover {background:url(../img/thumbs/mhco.jpg); background-position:bottom center;}
 
-div#projects button#b07 {background:url(../img/thumbs/deacon.jpg); background-position:top left;}
-div#projects button#b07:hover {background:url(../img/thumbs/deacon.jpg); background-position:bottom right;}
+div#projects button#b07 {background:url(../img/thumbs/antitheft.jpg); background-position:top center;}
+div#projects button#b07:hover {background:url(../img/thumbs/antitheft.jpg); background-position:bottom center;}
 
-div#projects button#b08 {background:url(../img/i5south.jpg); background-position:top center;}
-div#projects button#b08:hover {background:url(../img/i5south.jpg); background-position:bottom center;}
+div#projects button#b08 {background:url(../img/thumbs/bukers.jpg); background-position:top center;}
+div#projects button#b08:hover {background:url(../img/thumbs/bukers.jpg); background-position:bottom center;}
 
-div#projects button#b09 {background:url(../img/thumbs/mhco.jpg); background-position:top left;}
-div#projects button#b09:hover {background:url(../img/thumbs/mhco.jpg); background-position:bottom right;}
+div#projects button#b09 {background:url(../img/thumbs/fairway.jpg); background-position:top center;}
+div#projects button#b09:hover {background:url(../img/thumbs/fairway.jpg); background-position:bottom center;}
 
-div#projects button#b10 {background:url(../img/willamette.jpg); background-position:top left;}
-div#projects button#b10:hover {background:url(../img/willamette.jpg); background-position:bottom right;}
+div#projects button#b10 {background:url(../img/thumbs/commonwealth.jpg); background-position:top center;}
+div#projects button#b10:hover {background:url(../img/thumbs/commonwealth.jpg); background-position:bottom center;}
 
-div#projects button#b11 {background:url(../img/stjohns.jpg); background-position:top left;}
-div#projects button#b11:hover {background:url(../img/stjohns.jpg); background-position:bottom right;}
+div#projects button#b11 {background:url(../img/thumbs/jobgrowers.jpg); background-position:top left;}
+div#projects button#b11:hover {background:url(../img/thumbs/jobgrowers.jpg); background-position:top right;}
 
-div#projects button#b12 {background:url(../img/i5south.jpg); background-position:top left;}
-div#projects button#b12:hover {background:url(../img/i5south.jpg); background-position:bottom right;}
+div#projects button#b12 {background:url(../img/thumbs/westbearing.jpg); background-position:top center;}
+div#projects button#b12:hover {background:url(../img/thumbs/westbearing.jpg); background-position:bottom center;}
 
 
 @media(min-width:1200px){
@@ -233,3 +237,38 @@ div#projects button#b12:hover {background:url(../img/i5south.jpg); background-po
 }
 @media (max-width:480px){
 }
+
+/* MODALS */
+
+div#local-modals .modal-dialog { margin: 36px 16%;width: 68%; border-radius:0px; }
+div#local-modals .modal-dialog img { width:100%; height:auto; padding:12px;margin:0px auto;}
+div#local-modals .modal-content {border-radius:0px;}
+div#local-modals .modal-body {padding:0px;}
+div#local-modals .modal-header {background:#eee;}
+div#local-modals .modal-header h4 {font-size:1.5em; font-weight:400;}
+
+/* PHOTOGRAPHY */
+
+div#photography {}
+div#photography p { text-align:center;}
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+
+}
+@media (max-width:480px){
+}
+
+/* SOCIAL */
+div#social {width:100%;}
+div#social iframe#twitter-widget-0  {width:47% !important; height:600px !important;}
+div#social iframe#bookface {width:47%; float:right; height:600px;}
+
