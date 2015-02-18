@@ -8,18 +8,27 @@ div#primary div#marquee img {padding:10px; margin:0px auto; max-width:300px; }
 div#primary div#marquee {height:275px; margin:42px auto; background-position:top left; text-align:center;}
 div#primary div#marquee p {background:white; width:340px; margin:225px 300px 0px; float:left;}
 }
+
 @media(min-width:992px) and (max-width:1199px){
 div#primary div#marquee {height:275px; margin:42px auto; background-position:top right; text-align:center;}
 div#primary div#marquee p {background:white; width:36%; margin:225px 32% 0px; float:left;}
 div#primary div#marquee p img {width:100%; height:auto;}
 }
+
 @media(min-width:768px) and (max-width:991px){
 div#primary div#marquee {height:225px; margin:42px auto; background-position:top left; text-align:center;}
 div#primary div#marquee p {background:white; width:36%; margin:180px 32% 0px; float:left;}
 div#primary div#marquee p img {width:100%; height:auto;}
 }
-@media(min-width:481px) and (max-width:767px){
 
+@media(min-width:481px) and (max-width:767px){
+div#primary div#marquee {height:225px; margin:16px auto; background-position:top right; text-align:center;}
+div#primary div#marquee p {background:white; width:36%; margin:180px 32% 0px; float:left;}
+div#primary div#marquee p img {width:100%; height:auto;}
 }
+
 @media (max-width:480px){
+div#primary div#marquee {height:225px; margin:12px auto; background-position:top left; text-align:center;}
+div#primary div#marquee p {background:white; width:36%; margin:180px 32% 0px; float:left;}
+div#primary div#marquee p img {width:100%; height:auto;}
 }

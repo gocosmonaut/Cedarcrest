@@ -29,6 +29,7 @@ background-attachment: fixed;
     background-size: cover;
 	width:100%;
 } **/
+body { background:red !important;}
 
 p, a, button, span, li, ul, div, table {
 font-family: 'Muli', sans-serif;
@@ -50,9 +51,10 @@ button.close {font-size:36px; opacity:1.0;}
 
 /* CONTAINER */
 
-
+div#container {background:white;}
 @media(min-width:1200px){
 div#container {width:1170px; margin:0px auto; }
+
 }
 @media(min-width:992px) and (max-width:1199px){
 div#container {width:92%; margin:0px 4%; }
@@ -190,30 +192,40 @@ div#primary p.history {width:74.3%; font-size:1.05em; letter-spacing:0.3px; posi
 
 }
 @media(min-width:481px) and (max-width:767px){
-div#primary p.history {width:94%; font-size:.9em; letter-spacing:0.2px; position:relative;}
+div#primary p.history {width:100%; font-size:.9em; letter-spacing:0.2px; position:relative; padding-top:60px;}
 }
 @media (max-width:480px){
-	div#primary p.history {width:94%; font-size:.8em; letter-spacing:0.1px; position:relative;}
+	div#primary p.history {width:100%; font-size:.8em; letter-spacing:0.1px; position:relative; padding-top:60px;}
 }
 
 /* MOBILE MENU */
 
+div#mobile-menu-container { position: fixed; z-index: 10; text-align:right; background:white;padding:12px 0px;}
+div#mobile-menu-container div.btn-group {}
+div#mobile-menu-container div.btn-group .btn {width:80px;}
+div#mobile-menu-container div.btn-group ul {margin-left:-80px;}
 
 @media(min-width:1200px){
 div.btn-group {display:none;}
+div#mobile-menu-container {}
 }
 
 @media(min-width:992px) and (max-width:1199px){
 div.btn-group {display:none;}
+div#mobile-menu-container {display:none;}
 }
 
 @media(min-width:768px) and (max-width:991px){
 div.btn-group {display:none;}
+div#mobile-menu-container {display:none;}
 }
 @media(min-width:481px) and (max-width:767px){
-
+div.btn-group {}
+div#mobile-menu-container {width:47%; margin-left:47%;}
 }
 @media (max-width:480px){
+	div.btn-group {}
+	div#mobile-menu-container {width:47.5%; margin-left:47.5%;}
 }
 
 /***--MARQUEE-- ***/
@@ -279,8 +291,6 @@ div#introduction div#intro-touts img {width:24%; margin:0px 0px 15px 10px; float
 
 /* PROJECTS */
 div#projects {width:100%;padding:4%; margin-top:50px; float:left; }
-div#projects-mobile {text-align:center;}
-div#projects-mobile img {width:100%; height:auto; border:1px solid #ccc;}
 div#projects p.gallery {text-align:center; padding:20px 0px; margin-bottom:20px; }
 div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border:3px solid white; font-size:1em; color:white;}
 div#projects .btn-primary.btn-lg:hover {opacity:.9; box-shadow:-1px 1px 3px black; color:red;}
@@ -322,6 +332,11 @@ div#projects button#b11:hover {background:url(../img/thumbs/jobgrowers.jpg); bac
 
 div#projects button#b12 {background:url(../img/thumbs/westbearing.jpg); background-position:top center;}
 div#projects button#b12:hover {background:url(../img/thumbs/westbearing.jpg); background-position:bottom center;}
+
+div#projects-mobile {text-align:center;}
+div#projects-mobile p {margin:12px 0px 24px 0px;}
+div#projects-mobile h4 {margin:0px 0px 16px 0px; color:#9a0000; padding:8px; background:#eee; }
+div#projects-mobile img {width:100%; height:auto; border:1px solid #ccc;}
 
 
 @media(min-width:1200px){
@@ -399,4 +414,22 @@ div#photography p { text-align:center;}
 div#social {width:100%;}
 div#social iframe#twitter-widget-0  {width:47% !important; height:600px !important;}
 div#social iframe#bookface {width:47%; float:right; height:600px;}
+
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+}
+@media(min-width:481px) and (max-width:767px){
+	div#social iframe#twitter-widget-0  {width:100% !important; height:300px !important;}
+	div#social iframe#bookface {width:100%; float:none; height:300px; margin-top:21px;}
+}
+@media (max-width:480px){
+	div#social iframe#twitter-widget-0  {width:100% !important; height:300px !important;}
+	div#social iframe#bookface {width:100%; float:none; height:300px; margin-top:21px;}
+}
 

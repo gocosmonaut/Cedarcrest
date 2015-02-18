@@ -50,11 +50,13 @@
 </div> <!-- end sidebar -->
 
 <div id="primary">
+DIV Logo area
 <!-- Mobile menu -->
 <!-- Single button -->
-<div class="btn-group" style="position:fixed; z-index:10; width:100%; background:white;"}>
+<div id="mobile-menu-container">
+<div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-    Action <span class="caret"></span>
+    Expand <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
     <li><a href="#projects">Projects</a></li>
@@ -62,6 +64,7 @@
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
+  </div> <!-- end mobile-menu-container -->
 </div>
 <!-- End mobile menu -->
 <p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
@@ -92,30 +95,66 @@
 <a name="projects" id="projects"></a>
 
 <div id="projects-mobile">
+
+<!-- PROJECT #1 -->
 <h4>Deacon Corp. Web Site Design and Development</h4>
 <img src="img/screens/deacon_portfolio.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
-<h4>Deacon Corp. Web Site Design and Development</h4>
-<img src="img/screens/deacon_portfolio.jpg" />
+<!-- PROJECT #2 -->
+<h4>Kavi</h4>
+<img src="img/screens/kavi.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
-<h4>Deacon Corp. Web Site Design and Development</h4>
-<img src="img/screens/deacon_portfolio.jpg" />
+<!-- PROJECT #3 -->
+<h4>SBRE Summit</h4>
+<img src="img/screens/sbre_summit.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
-<h4>Deacon Corp. Web Site Design and Development</h4>
-<img src="img/screens/deacon_portfolio.jpg" />
+<!-- PROJECT #4 -->
+<h4>Confluence Wealth Management</h4>
+<img src="img/screens/confluence.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
-<h4>Deacon Corp. Web Site Design and Development</h4>
-<img src="img/screens/deacon_portfolio.jpg" />
+<!-- PROJECT #5 -->
+<h4>Quality Chain Corp.</h4>
+<img src="img/screens/qc.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
-<h4>Deacon Corp. Web Site Design and Development</h4>
-<img src="img/screens/deacon_portfolio.jpg" />
+<!-- PROJECT #6 -->
+<h4>MHCO</h4>
+<img src="img/screens/mhco.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
+<!-- PROJECT #7 -->
+<h4>Identity Theft Protection</h4>
+<img src="img/screens/intel_ipt.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<!-- PROJECT #8 -->
+<h4>Bukers Taxanalysis</h4>
+<img src="img/screens/bukers.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<!-- PROJECT #9 -->
+<h4>Fairway America</h4>
+<img src="img/screens/fairway_america.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<!-- PROJECT #10 -->
+<h4>Commonwealth Real Estate Services</h4>
+<img src="img/screens/commonwealth.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<!-- PROJECT #11 -->
+<h4>Job Growers, Inc.</h4>
+<img src="img/screens/job_growers.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<!-- PROJECT #12 -->
+<h4>West Bearing Investments</h4>
+<img src="img/screens/westbearing.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
  
 </div> <!-- end projects mobile -->
 <div id="modal-buttons">
