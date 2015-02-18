@@ -4,8 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 <!-- Latest compiled and minified CSS -->
-<link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/> 
+<!-- <link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/>  -->
 <link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/1.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
 <!-- Optional theme -->
@@ -48,7 +49,22 @@
 </div> <!-- end contact -->
 </div> <!-- end sidebar -->
 
-<div id="primary"><p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
+<div id="primary">
+<!-- Mobile menu -->
+<!-- Single button -->
+<div class="btn-group" style="position:fixed; z-index:10; width:100%; background:white;"}>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#photography">Photography</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+<!-- End mobile menu -->
+<p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
 <div id="marquee">
 <p><img src="img/we-specialize-in-rev.png" /></p>
 </div> <!-- end marquee -->
@@ -74,25 +90,54 @@
 
 <p class="gallery" /><img src="img/project-gallery.png" ></p>
 <a name="projects" id="projects"></a>
+
+<div id="projects-mobile">
+<h4>Deacon Corp. Web Site Design and Development</h4>
+<img src="img/screens/deacon_portfolio.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<h4>Deacon Corp. Web Site Design and Development</h4>
+<img src="img/screens/deacon_portfolio.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<h4>Deacon Corp. Web Site Design and Development</h4>
+<img src="img/screens/deacon_portfolio.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<h4>Deacon Corp. Web Site Design and Development</h4>
+<img src="img/screens/deacon_portfolio.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<h4>Deacon Corp. Web Site Design and Development</h4>
+<img src="img/screens/deacon_portfolio.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+<h4>Deacon Corp. Web Site Design and Development</h4>
+<img src="img/screens/deacon_portfolio.jpg" />
+<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+
+ 
+</div> <!-- end projects mobile -->
+<div id="modal-buttons">
 <!-- Button trigger modal 01 -->
-<button id="b01" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01" ><p>Deacon Corp.</p>
+<button id="b01" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01" ><p>Deacon<br />Corp.</p>
 </button>
 
 
 <!-- Button trigger modal 02 -->
-<button id="b02" type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#myModal_02" ><p>Kavi Coporation</p>
+<button id="b02" type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#myModal_02" ><p>Kavi<br />Coporation</p>
 </button>
 
 <!-- Button trigger modal 03 -->
-<button id="b03" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_03"><p>SBRE Summit</p>
+<button id="b03" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_03"><p>SBRE<br />Summit</p>
 </button>
 
 <!-- Button trigger modal 04 -->
-<button  id="b04" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_04"><p>Confluence<br />Wealth Management</p>
+<button  id="b04" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_04"><p>Confluence<br />Wealth<br />Management</p>
 </button>
 
 <!-- Button trigger modal 05 -->
-<button id="b05" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05"><p>Quality Chain Corp.</p>
+<button id="b05" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05"><p>Quality<br />Chain<br />Corp.</p>
 </button>
 
 <!-- Button trigger modal 06 -->
@@ -100,7 +145,7 @@
 </button>
 
 <!-- Button trigger modal 07 -->
-<button id="b07" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07"><p>Identity Theft<br />Protection</p>
+<button id="b07" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_07"><p>Identity<br />Theft<br />Protection</p>
 </button>
 
 <!-- Button trigger modal 08 -->
@@ -108,24 +153,26 @@
 </button>
 
 <!-- Button trigger modal 09 -->
-<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09"><p>Fairway America</p>
+<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09"><p>Fairway<br />America</p>
 </button>
 
 <!-- Button trigger modal 10 -->
-<button id="b10" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10"><p>Commonwealth<br />Real Estate Services<p>
+<button id="b10" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10"><p>Commonwealth<br />Real Estate<br />Services<p>
 </button>
 
 <!-- Button trigger modal 11 -->
-<button  id="b11" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_11"><p>Job Growers, Inc.</p>
+<button  id="b11" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_11"><p>Job Growers,<br /> Inc.</p>
 </button>
 
 <!-- Button trigger modal 12 -->
-<button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12"><p>West Bearing<br />Investments</p>
+<button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12"><p>West<br />Bearing<br />Investments</p>
 </button>
+</div> <!-- end modal buttons -->
 <p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
 </div> <!-- end projects -->
 
 <div id="photography">
+
 <p><img src="img/photography.png" /></p>
 <a name="photography" id="photography"></a>
 <div class="photo-col">1</div>
@@ -168,7 +215,7 @@ Contact
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_01">Deacon Corp. Web Site Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/deacon_portfolio.jpg" />
