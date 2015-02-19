@@ -31,7 +31,7 @@
 <div id="nav">
 <ul>
 <li><a href="#projects">Projects</a></li>
-<li><a href="#photography">Photography</a></li>
+<li><a href="#photos">Photography</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul>
@@ -50,21 +50,27 @@
 </div> <!-- end sidebar -->
 
 <div id="primary">
-DIV Logo area
+
 <!-- Mobile menu -->
 <!-- Single button -->
-<div id="mobile-menu-container">
+<div id="mobile-menu-container" data-spy="affix" data-offset-top="40">
+<!-- Mobile logo-->
+<div id="mobile-logo">
+<a href="#top"><img src="img/mobile-logo.png" /></a>
+</div> <!-- end mobile logo -->
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
     Expand <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
     <li><a href="#projects">Projects</a></li>
-    <li><a href="#photography">Photography</a></li>
+    <li><a href="#photos">Photography</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
+
   </div> <!-- end mobile-menu-container -->
+    <div id="mobile-contact"><p>503-222-4332<span class="glyphicon glyphicon-star"></span>431 NW Flanders, PDX 97217</p></div>
 </div>
 <!-- End mobile menu -->
 <p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
@@ -83,6 +89,7 @@ DIV Logo area
 <h3>Web Development</h3>
 <p><img src="img/horse.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 </div> <!-- end intro tout two -->
+
 <div id="intro-tout-three" class="intro-tout">
 <h3>Photography</h3>
 <p><img src="img/dog.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
@@ -213,13 +220,26 @@ DIV Logo area
 <div id="photography">
 
 <p><img src="img/photography.png" /></p>
-<a name="photography" id="photography"></a>
-<div class="photo-col">1</div>
-<div class="photo-col">2</div>Stock
-<div class="photo-col">3</div>
-<div class="photo-col">4</div>Product
-<div class="photo-col">5</div>
-<div class="photo-col">6</div>Staff
+<a name="photos" id="photos"></a>
+<div id="photo-tout-one" class="photo-tout">
+<h3>Stock and Editorial</h3>
+<p><img src="img/dog.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+</div> <!-- end intro tout one -->
+
+<div id="photo-tout-two" class="photo-tout">
+<h3>Product and Macro</h3>
+<!-- Button trigger modal 13 -->
+<button id="b13" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_13"><p>West<br />Bearing<br />Investments</p>
+</button>
+</div> <!-- end intro tout two -->
+
+<div id="photo-tout-three" class="photo-tout">
+<h3>Staff and Models</h3>
+<!-- Button trigger modal 14 -->
+<button id="b14" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_14"><p>West<br />Bearing<br />Investments</p>
+</button>
+</div> <!-- end intro tout three -->
+
 <p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
 </div> <!-- end photography -->
 
