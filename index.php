@@ -223,20 +223,20 @@
 <a name="photos" id="photos"></a>
 <div id="photo-tout-one" class="photo-tout">
 <h3>Stock and Editorial</h3>
-<p><img src="img/dog.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<p><a href="http://www.istockphoto.com/search/lightbox/16958408#1757d962" target="_blank"><img src="img/stock_editorial.jpg" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 </div> <!-- end intro tout one -->
 
 <div id="photo-tout-two" class="photo-tout">
 <h3>Product and Macro</h3>
 <!-- Button trigger modal 13 -->
-<button id="b13" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_13"><p>West<br />Bearing<br />Investments</p>
+<button id="b13" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_13">
 </button>
 </div> <!-- end intro tout two -->
 
 <div id="photo-tout-three" class="photo-tout">
 <h3>Staff and Models</h3>
 <!-- Button trigger modal 14 -->
-<button id="b14" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_14"><p>West<br />Bearing<br />Investments</p>
+<button id="b14" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_14">
 </button>
 </div> <!-- end intro tout three -->
 
@@ -470,10 +470,61 @@ Contact
   </div>
 </div>
 <!-- End Modal 12 -->
+
+<!-- Modal 12 -->
+<div class="modal fade" id="myModal_12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_12">West Bearing Investments Web Site Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/screens/westbearing.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 12 -->
+
+<!-- Modal 13 -->
+<div class="modal fade" id="myModal_13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_13">Cosmonaut</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/cosmonaut_products_macro.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 13 -->
+
+<!-- Modal 14 -->
+<div class="modal fade" id="myModal_14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel_14">West Bearing Investments Web Site Design and Development</h4>
+        <p>A responsive Drupal 7 site.</p>
+      </div>
+      <div class="modal-body">
+      <img src="img/cosmonaut_models_staff.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal 14 -->
   
   
   
-  </div> <!-- end local modals -->
+</div> <!-- end local modals -->
 </div> <!-- end container -->
 
 

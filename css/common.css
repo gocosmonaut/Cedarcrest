@@ -21,7 +21,7 @@ body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scro
 
 /**
 body {
-
+original
 background-attachment: fixed;
     background-image: url(../img/willamette.jpg);
     background-position: left top;
@@ -348,7 +348,7 @@ div#projects button#b12:hover {background:url(../img/thumbs/westbearing.jpg); ba
 
 div#projects-mobile {text-align:center;}
 div#projects-mobile p {margin:12px 0px 24px 0px;}
-div#projects-mobile h4 {margin:0px 0px 16px 0px; color:#9a0000; padding:8px; background:#eee; }
+div#projects-mobile h4 {margin:0px 0px 16px 0px; color:#9a0000; padding:6px; background:#eee; line-height:130%; font-size:1.1em; }
 div#projects-mobile img {width:100%; height:auto; border:1px solid #ccc;}
 
 
