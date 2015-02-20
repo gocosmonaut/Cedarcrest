@@ -223,7 +223,7 @@
 <a name="photos" id="photos"></a>
 <div id="photo-tout-one" class="photo-tout">
 <h3>Stock and Editorial</h3>
-<p><a href="http://www.istockphoto.com/search/lightbox/16958408#1757d962" target="_blank"><img src="img/stock_editorial.jpg" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<p><a href="http://www.istockphoto.com/search/lightbox/16958408#1757d962" target="_blank"><img src="img/stock_editorial.png" /></a></p>
 </div> <!-- end intro tout one -->
 
 <div id="photo-tout-two" class="photo-tout">
