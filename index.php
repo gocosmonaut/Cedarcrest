@@ -81,18 +81,18 @@
 
 <div id="intro-touts">
 <div id="intro-tout-one" class="intro-tout">
-<h3>Web Design</h3>
-<p><img src="img/elephant.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<h3><a href="#projects">Web Design</a></h3>
+<p><a href="#projects"><img src="img/elephant.png" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 
 </div> <!-- end intro tout one -->
 <div id="intro-tout-two" class="intro-tout">
-<h3>Web Development</h3>
-<p><img src="img/horse.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<h3><a href="#projects">Web Development</a></h3>
+<p><a href="#projects"><img src="img/horse.png" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 </div> <!-- end intro tout two -->
 
 <div id="intro-tout-three" class="intro-tout">
-<h3>Photography</h3>
-<p><img src="img/dog.png" />Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+<h3><a href="#photos">Photography</a></h3>
+<p><a href="#photos"><img src="img/dog.png" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 </div> <!-- end intro tout three -->
 </div> <!-- end intro touts -->
 </div> <!-- end introduction -->
@@ -217,24 +217,24 @@
 <p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
 </div> <!-- end projects -->
 
-<div id="photography">
+<div id="photography"><a name="photos" id="photos"></a>
 
 <p><img src="img/photography.png" /></p>
-<a name="photos" id="photos"></a>
+
 <div id="photo-tout-one" class="photo-tout">
-<h3>Stock and Editorial</h3>
+<h3><a  data-toggle="modal" data-target="#myModal_07">Stock and Editorial</a></h3>
 <p><a href="http://www.istockphoto.com/search/lightbox/16958408#1757d962" target="_blank"><img src="img/stock_editorial.png" /></a></p>
 </div> <!-- end intro tout one -->
 
 <div id="photo-tout-two" class="photo-tout">
-<h3>Product and Macro</h3>
+<h3><a data-toggle="modal" data-target="#myModal_13">Product and Macro</a></h3>
 <!-- Button trigger modal 13 -->
 <button id="b13" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_13">
 </button>
 </div> <!-- end intro tout two -->
 
 <div id="photo-tout-three" class="photo-tout">
-<h3>Staff and Models</h3>
+<h3><a  data-toggle="modal" data-target="#myModal_14">Staff and Models</a></h3>
 <!-- Button trigger modal 14 -->
 <button id="b14" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_14">
 </button>
