@@ -11,6 +11,7 @@
 <link href='http://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -60,7 +61,7 @@
 </div> <!-- end mobile logo -->
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-    Expand <span class="caret"></span>
+      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
     <li><a href="#projects">Projects</a></li>
@@ -70,7 +71,7 @@
   </ul>
 
   </div> <!-- end mobile-menu-container -->
-    <div id="mobile-contact"><p>503-222-4332<span class="glyphicon glyphicon-star"></span>431 NW Flanders, PDX 97217</p></div>
+    <div id="mobile-contact"><p><a href="tel:1+503-222-4332">503-222-4332</a><span class="glyphicon glyphicon-star"></span>431 NW Flanders, PDX 97217</p></div>
 </div>
 <!-- End mobile menu -->
 <p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>

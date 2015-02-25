@@ -35,9 +35,9 @@ font-family: 'Muli', sans-serif;
  font-weight:300;
 }
 a, a:hover {text-decoration:none !important;}
-a, button:hover, img a:hover, :hover, a img:hover, text-shadow, font-size { transition: all 0.2s ease 0.1s;}
+a, button:hover, img a:hover, :hover, a img:hover, text-shadow,  .affix { transition: all 0.2s ease 0.1s;}
 button { transition: all 1s ease .5s;}
-img a, a img {border:0px; border:none; nn  }
+img a, a img {border:0px; border:none; }
 
 ul { list-style:none; padding:0px;}
 li {padding:0px;}
@@ -47,6 +47,7 @@ p.top-return  { text-align:center; font-size:1em; margin:0px auto;}
 p.top-return a {color:#9a0000;padding:5px; border-radius:0px; background:#eee;}
 p.top-return a:hover { background:#9a0000; color:white; border-radius:6px;}
 button.close {font-size:36px; opacity:1.0;}
+
 
 /* CONTAINER */
 
@@ -94,7 +95,7 @@ div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contac
 div#sidebar div#contact ul li.contact-mail {}
 div#sidebar div#contact ul li.contact-phone {}
 div#sidebar div#contact ul li a {background:#9a0000;  }
-div#sidebar div#contact ul li.contact-phone a {}
+div#sidebar div#contact ul li.contact-phone a {color:white;}
 div#sidebar div#contact ul li a:hover {  background:#333; }
 	
 @media(min-width:1200px){
@@ -201,13 +202,15 @@ div#primary p.history {width:100%; font-size:.9em; letter-spacing:0.2px; positio
 div#mobile-menu-container { position: fixed; z-index: 10; background:#9a0000;padding:12px 0px;text-align:right; }
 div#mobile-menu-container.affix {background:black;}
 div#mobile-menu-container div.btn-group {}
-div#mobile-menu-container div.btn-group .btn {width:80px; padding:3px 12px;}
-div#mobile-menu-container div.btn-group ul {margin-left:-80px;}
+div#mobile-menu-container div.btn-group .btn { width:40px;padding:3px 9px;}
+div#mobile-menu-container div.btn-group ul {margin-left:-120px;}
 div#mobile-menu-container div.btn-group ul li a {font-size:1.2em;}
+span.glyphicon.glyphicon-menu-hamburger {font-size:1.5em;}
 div#mobile-logo {}
 div#mobile-logo img { float:left;}
 div#mobile-contact {}
 div#mobile-contact p { color:white; text-align:center; margin:0px; padding:6px; font-weight:400;}
+div#mobile-contact p a {color:white; font-weight:400;}
 div#mobile-menu-container div#mobile-contact p span.glyphicon {color:black;}
 div#mobile-menu-container.affix div#mobile-contact p span.glyphicon { color:#9a0000;}
 
