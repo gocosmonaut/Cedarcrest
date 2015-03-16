@@ -5,7 +5,7 @@ div#primary div#marquee p {}
 div#primary div#marquee img {padding:10px; margin:0px auto; max-width:300px; }
 
 @media(min-width:1200px){
-div#primary div#marquee {height:355px; margin:0 auto; background-position:top left; text-align:center;}
+div#primary div#marquee {height:275px; margin:42px auto; background-position:top left; text-align:center;}
 div#primary div#marquee p {background:white; width:340px; margin:225px 300px 0px; float:left;}
 }
 

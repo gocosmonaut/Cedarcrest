@@ -22,7 +22,33 @@
 
 <div id="container">
 <a name="top" id="top"></a>
+<div id="sidebar">
 
+<div id="logo">
+<div id="commiebird"><a href="#top"><img src="img/commiebird.gif" /></a></div>
+<div id="wordmark"><a href="#top"><img src="img/wordmark.png" /></a></div>
+</div> <!-- end logo -->
+
+<div id="nav">
+<ul>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#photos">Photography</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div> <!-- end nav -->
+<div id="contact">
+<ul>
+<li>431 NW Flanders</li>
+<li>Suite 203</li>
+<li>Portland, Oregon</li>
+<li> 97209 USA</li>
+<li class="contact-mail"><a title="Cosmonaut contact email - Portland office" href="start@gocosmonaut.com">Electronic Mail</a></li>
+<li class="contact-phone"><a title="Cosmonaut phone number - Portland office" href="tel:1+503-222-4332">1+503-222-4332</a></li>
+
+</ul>
+</div> <!-- end contact -->
+</div> <!-- end sidebar -->
 
 <div id="primary">
 
@@ -49,8 +75,28 @@
 </div>
 <!-- End mobile menu -->
 <p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
+<div id="marquee">
+<p><img src="img/we-specialize-in-rev.png" /></p>
+</div> <!-- end marquee -->
+<div id="introduction">
 
+<div id="intro-touts">
+<div id="intro-tout-one" class="intro-tout">
+<h3><a href="#projects">Web Design</a></h3>
+<p><a href="#projects"><img src="img/elephant.png" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
 
+</div> <!-- end intro tout one -->
+<div id="intro-tout-two" class="intro-tout">
+<h3><a href="#projects">Web Development</a></h3>
+<p><a href="#projects"><img src="img/horse.png" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+</div> <!-- end intro tout two -->
+
+<div id="intro-tout-three" class="intro-tout">
+<h3><a href="#photos">Photography</a></h3>
+<p><a href="#photos"><img src="img/dog.png" /></a>Probably Leonardo da Vinci could be recognized as the first true biomechanist,[according to whom?] because he was the first to study anatomy in the context of mechanics.</p>
+</div> <!-- end intro tout three -->
+</div> <!-- end intro touts -->
+</div> <!-- end introduction -->
 <div id="projects">
 
 <p class="gallery" /><img src="img/project-gallery.png" ></p>

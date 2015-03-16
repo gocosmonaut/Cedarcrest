@@ -1,4 +1,4 @@
-/***--BOOTSTRAP BREAKPOINTS-- ***/
+w/***--BOOTSTRAP BREAKPOINTS-- ***/
 
 @media(min-width:1200px){
 
@@ -19,7 +19,16 @@
 .modal-backdrop { opacity:.6 !important; background:black !important;}
 body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scroll; }
 
-body { background:#b4b7ff !important;}
+/**
+body {
+original
+background-attachment: fixed;
+    background-image: url(../img/willamette.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
+} **/
 
 p, a, button, span, li, ul, div, table {
 font-family: 'Muli', sans-serif;
@@ -42,11 +51,8 @@ button.close {font-size:36px; opacity:1.0;}
 
 /* CONTAINER */
 
-div#container {background:#545eec; margin:5%; width:90%;}
-
-/*
 @media(min-width:1200px){
-div#container {width:100%; margin:0px auto; }
+div#container {width:1170px; margin:0px auto; }
 
 }
 @media(min-width:992px) and (max-width:1199px){
@@ -61,11 +67,11 @@ div#container {width:94%; margin:0px 3%; }
 @media (max-width:480px){
 	div#container {width:95%; margin:0px 2.5%; }
 }
-*/
+
 
 /* SIDEBAR AND FRIENDS */
 
-div#sidebar {position:fixed; max-width: 225px; padding: 0; width: 20%; margin-left:1%;}
+div#sidebar {position:fixed;}
 div#sidebar a, div#sidebar li {color:white;}
 div#sidebar a:hover {color:white;}
 
@@ -74,7 +80,7 @@ div#sidebar div#logo div#commiebird { background:black; text-align:center; margi
 div#sidebar div#logo div#commiebird img {}
 
 div#sidebar div#logo div#wordmark {}
-div#sidebar div#logo div#wordmark img { width:100%; height:auto; max-width:190px;}
+div#sidebar div#logo div#wordmark img { width:100%; height:auto;}
 
 div#sidebar div#nav {width:100%; background:black; padding:0px; margin-bottom:32px; text-transform:uppercase;}
 div#sidebar div#nav ul {}
@@ -93,13 +99,14 @@ div#sidebar div#contact ul li.contact-phone a {color:white;}
 div#sidebar div#contact ul li a:hover {  background:#333; }
 	
 @media(min-width:1200px){
+	
+div#sidebar {width:190px; padding:0px; }
 
-div#sidebar {}
 
 div#sidebar div#logo div#commiebird { width:100%; text-align:center;padding:20px 0px; }
 div#sidebar div#logo div#commiebird img {}
 
-div#sidebar div#logo div#wordmark { background: black; width: 100%; text-align:center;}
+div#sidebar div#logo div#wordmark {}
 
 div#sidebar div#nav {width:100%; background:black; padding:0px; margin-bottom:32px; text-transform:uppercase;}
 div#sidebar div#nav ul {}
@@ -166,13 +173,13 @@ div#sidebar {display:none;}
 
 /* PRIMARY */
 div#primary {}
-div#primary p.history {display:none;margin-bottom:0px;text-align:center; padding:6px;z-index:1; width:940px;}
-div#primary p.history.affix-top {background:white;  color:black;   border-bottom:1px solid white; border-right:1px solid white; border-left:1px solid white; z-index:-1;  padding-left:20%; }
-div#primary p.history.affix { background:#111; color:#ddd;text-align:center;   border-right:0px solid black; border-left:0px solid black; border-bottom:6px double white;  padding-left:20%; }
+div#primary p.history {margin-bottom:0px;text-align:center; padding:6px;z-index:1; width:940px;}
+div#primary p.history.affix-top {background:white;  color:black;   border-bottom:1px solid white; border-right:1px solid white; border-left:1px solid white; }
+div#primary p.history.affix { background:#111; color:#ddd;text-align:center;   border-right:0px solid black; border-left:0px solid black; border-bottom:6px double white;   }
 
 @media(min-width:1200px){
-div#primary { padding-top: 0px; width: 100%; }
-div#primary p.history {width:100%; font-size:.95em; letter-spacing:0.5px; position:fixed;}
+div#primary {float: right; margin: 0 0 0 230px; padding-top: 0px; width: 940px;}
+div#primary p.history {width:940px; font-size:.95em; letter-spacing:0.5px; position:fixed;}
 }
 @media(min-width:992px) and (max-width:1199px){
 div#primary {float: right; margin: 0; padding-top: 0px; width: 79%;}
@@ -251,7 +258,7 @@ div#primary div#marquee img {padding:10px 0px; margin:0px auto; } */
 }
 @media(min-width:768px) and (max-width:991px){
 
-}ß
+}
 @media(min-width:481px) and (max-width:767px){
 
 }
@@ -260,7 +267,7 @@ div#primary div#marquee img {padding:10px 0px; margin:0px auto; } */
 
 
 /* INTRODUCTION */
-div#introduction {width:100%; text-align:center; padding: 0 1% 0 21%;}
+div#introduction {width:100%; text-align:center;}
 
 div#introduction div#intro-touts {margin:0px auto; text-align:left; position:relative;}
 div#introduction div#intro-touts  h3 {width:100%; margin-bottom:0px;}
@@ -300,7 +307,7 @@ div#introduction div#intro-touts img {width:22%; margin:0px 0px 15px 15px; float
 }
 
 /* PROJECTS */
-div#projects {width:100%;padding: 4% 1% 4% 21%; margin-top:50px; float:left; }
+div#projects {width:100%;padding:4%; margin-top:50px; float:left; }
 div#projects p.gallery {text-align:center; padding:20px 0px; margin-bottom:20px; }
 div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border:3px solid white; font-size:1em; color:white;}
 div#projects .btn-primary.btn-lg:hover {opacity:.9; box-shadow:-1px 1px 3px black; color:red;}
