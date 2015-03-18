@@ -25,7 +25,11 @@
 
 
 <div id="primary">
-
+<div id="introduction"> 
+<p><span id="cosmonaut">**** COSMONAUT CREATIVE MEDIA * PORTLAND, OREGON ****</span></p>
+<p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
+<p><img src="img/bird.gif" />
+<p>READY.</p></div>
 <!-- Mobile menu -->
 <!-- Single button -->
 <div id="mobile-menu-container" data-spy="affix" data-offset-top="40">
@@ -52,10 +56,10 @@
 
 
 <div id="projects">
-
-<p class="gallery" /><img src="img/project-gallery.png" ></p>
-<a name="projects" id="projects"></a>
-
+ 
+    
+  <a name="projects" id="projects"></a>
+    
 <div id="projects-mobile">
 
 <!-- PROJECT #1 -->
@@ -121,7 +125,7 @@
 </div> <!-- end projects mobile -->
 <div id="modal-buttons">
 <!-- Button trigger modal 01 -->
-<button id="b01" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_01" ><p>Deacon<br />Corp.</p>
+<button id="b01" type="button" class="btn btn-primary btn-lg left-col" data-toggle="modal" data-target="#myModal_01" ><p>Deacon<br />Corp.</p>
 </button>
 
 
@@ -138,7 +142,7 @@
 </button>
 
 <!-- Button trigger modal 05 -->
-<button id="b05" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_05"><p>Quality<br />Chain<br />Corp.</p>
+<button id="b05" type="button" class="btn btn-primary btn-lg left-col" data-toggle="modal" data-target="#myModal_05"><p>Quality<br />Chain<br />Corp.</p>
 </button>
 
 <!-- Button trigger modal 06 -->
@@ -154,7 +158,7 @@
 </button>
 
 <!-- Button trigger modal 09 -->
-<button id="b09" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_09"><p>Fairway<br />America</p>
+<button id="b09" type="button" class="btn btn-primary btn-lg left-col" data-toggle="modal" data-target="#myModal_09"><p>Fairway<br />America</p>
 </button>
 
 <!-- Button trigger modal 10 -->
@@ -169,7 +173,7 @@
 <button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12"><p>West<br />Bearing<br />Investments</p>
 </button>
 </div> <!-- end modal buttons -->
-<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
+<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span> * Return to Top *<span class="glyphicon glyphicon-star"></span></a></p>
 </div> <!-- end projects -->
 
 <div id="photography"><a name="photos" id="photos"></a>
