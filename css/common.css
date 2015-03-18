@@ -1,25 +1,41 @@
 @font-face {
     font-family: 'C64';
-    src: url('c64.eot');
-    src: url('c64.eot?#iefix') format('embedded-opentype'),
-         url('c64.woff2') format('woff2'),
-         url('c64.woff') format('woff'),
-         url('c64.ttf') format('truetype'),
-         url('c64.svg#C64') format('svg');
+    src: url('fonts/c64.eot');
+    src: url('fonts/c64.eot?#iefix') format('embedded-opentype'),
+         url('fonts/c64.woff2') format('woff2'),
+         url('fonts/c64.woff') format('woff'),
+         url('fonts/c64.ttf') format('truetype'),
+         url('fonts/c64.svg#C64') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Envy';
+    src: url('fonts/Envy.eot');
+    src: url('fonts/Envy.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Envy.woff2') format('woff2'),
+         url('fonts/Envy.woff') format('woff'),
+         url('fonts/Envy.ttf') format('truetype'),
+         url('fonts/Envy.svg#Envy') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
 .modal-backdrop { opacity:.6 !important; background:black !important;}
 body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scroll; }
 
 body { background:#b4b7ff !important;}
 
 p, a, button, span, li, ul, div, table {
-font-family: 'C64' !important;
 color:#b4b7ff;
-font-size:24px;
 }
+
+/* FONTS */
+
+p, a, button, span, li, ul, div, table { font-family: 'Envy' !important;}
+div#introduction p, div#introduction p span, p.top-return a {font-family: 'C64' !important;}
 
 a, a:hover {text-decoration:none !important;}
 a, button:hover, img a:hover, :hover, a img:hover, text-shadow,  .affix { transition: all 0.2s ease 0.1s;}
@@ -38,7 +54,7 @@ button.close {font-size:36px; opacity:1.0;}
 
 /* CONTAINER */
 
-div#container {background:#545eec; margin:5%; width:90%; max-width:2100px; padding:12px 0px;}
+div#container {background:#545eec; margin:0% 5%; width:90%; max-width:2100px; padding:12px 0px;}
 
 /*
 @media(min-width:1200px){
@@ -257,8 +273,10 @@ div#primary div#marquee img {padding:10px 0px; margin:0px auto; } */
 
 /* INTRODUCTION */
 div#introduction {}
-div#introduction p {text-align:center;}
-div#introduction p span#ram {padding-right:34px;}
+div#introduction p {text-align:center; font-family: 'C64' !important; font-size:24px;}
+div#introduction p span {font-family: 'C64' !important;}
+div#introduction p span#ram {padding-right:34px; }
+div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
 
 @media(min-width:1200px){
 

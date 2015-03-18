@@ -29,7 +29,7 @@
 <p><span id="cosmonaut">**** COSMONAUT CREATIVE MEDIA * PORTLAND, OREGON ****</span></p>
 <p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
 <p><img src="img/bird.gif" />
-<p>READY.</p></div>
+<p>READY.<img src="img/cursor.gif" class="cursor" /></img></p></div>
 <!-- Mobile menu -->
 <!-- Single button -->
 <div id="mobile-menu-container" data-spy="affix" data-offset-top="40">
