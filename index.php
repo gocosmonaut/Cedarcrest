@@ -22,14 +22,9 @@
 
 <div id="container">
 <a name="top" id="top"></a>
+<div id="top-frame" style="height:5%; width:100%; background:#b4b7ff; position:fixed;">yo
+</div>
 
-
-<div id="primary">
-<div id="introduction"> 
-<p><span id="cosmonaut">**** COSMONAUT CREATIVE MEDIA * PORTLAND, OREGON ****</span></p>
-<p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
-<p><img src="img/bird.gif" />
-<p>READY.<img src="img/cursor.gif" class="cursor" /></img></p></div>
 <!-- Mobile menu -->
 <!-- Single button -->
 <div id="mobile-menu-container" data-spy="affix" data-offset-top="40">
@@ -52,6 +47,14 @@
     <div id="mobile-contact"><p><a href="tel:1+503-222-4332">503-222-4332</a><span class="glyphicon glyphicon-star"></span>431 NW Flanders, PDX 97217</p></div>
 </div>
 <!-- End mobile menu -->
+
+<div id="primary">
+<div id="introduction"> 
+<p><span id="cosmonaut">**** COSMONAUT CREATIVE MEDIA * PORTLAND, OREGON ****</span></p>
+<p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
+<p><img src="img/bubble.gif" /><img src="img/birdmatrix.gif" />
+<p>READY.<img src="img/cursor.gif" class="cursor" /></img></p></div>
+
 <p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
 
 
@@ -68,7 +71,7 @@
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
 <!-- PROJECT #2 -->
-<h4>Kavi</h4>
+<h4>Kavi Corporation</h4>
 <img src="img/screens/kavi.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
@@ -130,7 +133,7 @@
 
 
 <!-- Button trigger modal 02 -->
-<button id="b02" type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#myModal_02" ><p>Kavi<br />Coporation</p>
+<button id="b02" type="button" class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#myModal_02" ><p>Kavi<br />Corporation</p>
 </button>
 
 <!-- Button trigger modal 03 -->
@@ -212,17 +215,13 @@ About
 Contact
 </div> <!-- end about -->
 
-<div id="social">
-<a class="twitter-timeline"  href="https://twitter.com/deitschel"  data-widget-id="460171531847352320">Tweets by @deitschel</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<iframe id="bookface" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FGoCosmonaut&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=false" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>
-<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
 </div> <!-- end projects -->
 
-</div> <!-- end social -->
+
 
 </div><!-- end primary -->
+
 <!-- MODALS -->
 <div id="local-modals">
 
@@ -484,6 +483,7 @@ Contact
   
   
 </div> <!-- end local modals -->
+
 </div> <!-- end container -->
 
 
