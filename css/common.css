@@ -11,13 +11,13 @@
 }
 
 @font-face {
-    font-family: 'Envy';
-    src: url('fonts/Envy.eot');
-    src: url('fonts/Envy.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Envy.woff2') format('woff2'),
-         url('fonts/Envy.woff') format('woff'),
-         url('fonts/Envy.ttf') format('truetype'),
-         url('fonts/Envy.svg#Envy') format('svg');
+    font-family: 'VT323';
+    src: url('fonts/VT323.eot');
+    src: url('fonts/VT323.eot?#iefix') format('embedded-opentype'),
+         url('fonts/VT323.woff2') format('woff2'),
+         url('fonts/VT323.woff') format('woff'),
+         url('fonts/VT323.ttf') format('truetype'),
+         url('fonts/VT323.svg#vt323') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,35 +26,36 @@
 .modal-backdrop { opacity:.6 !important; background:black !important;}
 body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scroll; }
 
-body { background:#b4b7ff !important;}
+body { background:#4f80ff  !important;}
 
 p, a, button, span, li, ul, div, table {
-color:#b4b7ff;
+color:#4f80ff ;
 }
 
 /* FONTS */
 
-p, a,  span, li, ul, div, table { font-family: 'Envy' !important;}
-div#introduction p, div#introduction p span, p.top-return a, button p, h4 {font-family: 'C64' !important; font-weight:normal;}
+p, a,  span, li, ul, div, table, div#introduction p.helloworld, div.modal-content p { font-family: 'VT323' !important;}
+div#introduction p, div#introduction p span, p.top-return a, button p, h4  {font-family: 'C64' !important; font-weight:normal;}
 
 a, a:hover {text-decoration:none !important;}
-a, button:hover, img a:hover, :hover, a img:hover, text-shadow,  .affix { transition: all 0.2s ease 0.1s;}
+ img a:hover, :hover, a img:hover { transition: all 0.2s ease 0.1s;}
 button { transition: all 1s ease .5s;}
 img a, a img {border:0px; border:none; }
 
 ul { list-style:none; padding:0px;}
 li {padding:0px;}
 
-.glyphicon {padding:0px 6px; font-size:.8em; color:#9a0000; font-family:"Glyphicons Halflings" !important;}
+.glyphicon,  {padding:0px 6px; font-size:.8em; color:#9a0000; font-family:"Glyphicons Halflings" !important;}
 p.top-return  { text-align:center; font-size:1em; margin:0px auto;}
 p.top-return a {color:#9a0000;padding:5px; border-radius:0px; background:#eee;}
 p.top-return a:hover { background:#9a0000; color:white; border-radius:6px;}
-button.close {font-size:36px; opacity:1.0;}
+div.modal-content button.close {opacity:1.0;}
+div.modal-content button.close span {font-size:36px;  color:black; font-family:"Glyphicons Halflings" !important;}
 
 
 /* CONTAINER */
 
-div#container {background:#545eec; margin:0% 5%; width:90%; max-width:2100px; padding:0px;}
+div#container {background:#0039ff; margin:0% 5%; width:90%;  padding:0px;}
 
 /*
 @media(min-width:1200px){
@@ -75,131 +76,42 @@ div#container {width:94%; margin:0px 3%; }
 }
 */
 
-/* SIDEBAR AND FRIENDS */
 
-div#sidebar {position:fixed; max-width: 225px; padding: 0; width: 20%; margin-left:1%;}
-div#sidebar a, div#sidebar li {color:white;}
-div#sidebar a:hover {color:white;}
-
-div#sidebar div#logo {margin-bottom:32px}
-div#sidebar div#logo div#commiebird { background:black; text-align:center; margin:0px auto; padding:0px 0px 15px;}
-div#sidebar div#logo div#commiebird img {}
-
-div#sidebar div#logo div#wordmark {}
-div#sidebar div#logo div#wordmark img { width:100%; height:auto; max-width:190px;}
-
-div#sidebar div#nav {width:100%; background:black; padding:0px; margin-bottom:32px; text-transform:uppercase;}
-div#sidebar div#nav ul {}
-div#sidebar div#nav ul li {}
-div#sidebar div#nav ul li a { display:block; color:white;}
-div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:4px; font-weight:400;}
-
-div#sidebar div#contact {width:100%; background:black; padding:6px 0 0; text-transform:uppercase;}
-div#sidebar div#contact ul {}
-div#sidebar div#contact ul li {}
-div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contact-phone {}
-div#sidebar div#contact ul li.contact-mail {}
-div#sidebar div#contact ul li.contact-phone {}
-div#sidebar div#contact ul li a {background:#9a0000;  }
-div#sidebar div#contact ul li.contact-phone a {color:white;}
-div#sidebar div#contact ul li a:hover {  background:#333; }
-	
-@media(min-width:1200px){
-
-div#sidebar {}
-
-div#sidebar div#logo div#commiebird { width:100%; text-align:center;padding:20px 0px; }
-div#sidebar div#logo div#commiebird img {}
-
-div#sidebar div#logo div#wordmark { background: black; width: 100%; text-align:center;}
-
-div#sidebar div#nav {width:100%; background:black; padding:0px; margin-bottom:32px; text-transform:uppercase;}
-div#sidebar div#nav ul {}
-div#sidebar div#nav ul li {letter-spacing:1.5px; }
-div#sidebar div#nav ul li a {  padding: 9px 12px;  font-size:1em;}
-div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:4px; font-weight:400;}
-
-div#sidebar div#contact { padding:6px 0 0; }
-div#sidebar div#contact ul {}
-div#sidebar div#contact ul li {padding: 5px 12px; display:block; font-size:.8em; letter-spacing:1.25px;}
-div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contact-phone {padding:0px;text-align:center;}
-div#sidebar div#contact ul li.contact-mail {border-top:2px solid white; border-bottom:2px solid white; margin-top:8px;}
-div#sidebar div#contact ul li.contact-phone {font-size:1em; }
-div#sidebar div#contact ul li a {  padding: 6px 0px; display:block; }
-div#sidebar div#contact ul li.contact-phone a {padding:10px 0px; font-weight:400; }
-div#sidebar div#contact ul li a:hover {  letter-spacing:2px; font-size:1.05em;}
-
-}
-@media(min-width:992px) and (max-width:1199px){
-div#sidebar {width:16%; padding:0px; }
-div#sidebar div#nav {width:100%; padding:0px; margin-bottom:32px;}
-div#sidebar div#nav ul {}
-div#sidebar div#nav ul li {letter-spacing:1.25px; }
-div#sidebar div#nav ul li a {  padding: 8px 12px;  font-size:.9em;}
-div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:3px; font-weight:400;}
-
-div#sidebar div#contact { padding:6px 0 0; }
-div#sidebar div#contact ul {}
-div#sidebar div#contact ul li {padding: 5px 12px; display:block; font-size:.8em; letter-spacing:1.25px;}
-div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contact-phone {padding:0px;text-align:center;}
-div#sidebar div#contact ul li.contact-mail {border-top:2px solid white; border-bottom:2px solid white; margin-top:8px;}
-div#sidebar div#contact ul li.contact-phone {font-size:1em; }
-div#sidebar div#contact ul li a {  padding: 6px 0px; display:block; }
-div#sidebar div#contact ul li.contact-phone a {padding:10px 0px; font-weight:400; }
-div#sidebar div#contact ul li a:hover {  letter-spacing:2px; font-size:1.05em;}
-
-}
-@media(min-width:768px) and (max-width:991px){
-	div#sidebar {width:16%; padding:0px; }
-div#sidebar div#nav {width:100%;  padding:0px; margin-bottom:32px; }
-div#sidebar div#nav ul {}
-div#sidebar div#nav ul li {letter-spacing:1.5px; }
-div#sidebar div#nav ul li a {  padding: 8px 9px;  font-size:.8em;}
-div#sidebar div#nav ul li a:hover {  background:#9a0000; letter-spacing:2px; font-weight:400;}
-
-div#sidebar div#contact { padding:6px 0 0; }
-div#sidebar div#contact ul {}
-div#sidebar div#contact ul li {padding: 5px 12px; display:block; font-size:.7em; letter-spacing:1.25px;}
-div#sidebar div#contact ul li.contact-mail, div#sidebar div#contact ul li.contact-phone {padding:0px;text-align:center;}
-div#sidebar div#contact ul li.contact-mail {border-top:2px solid white; border-bottom:2px solid white; margin-top:8px;}
-div#sidebar div#contact ul li.contact-phone {font-size:.8em; }
-div#sidebar div#contact ul li a {  padding: 6px 0px; display:block; }
-div#sidebar div#contact ul li.contact-phone a {padding:10px 0px; font-weight:400; }
-div#sidebar div#contact ul li a:hover {  letter-spacing:1px; font-size:1em;}
-}
-
-@media(min-width:481px) and (max-width:767px){
-div#sidebar {display:none;}
-}
-
-@media (max-width:480px){
-div#sidebar {display:none;}
-}
-
-/* PRIMARY */
+/* PRIMARY, COMMODORE COLOR STRIPE AND PERSISTENT HEADER */
 div#primary {}
-div#primary p.history {display:none;margin-bottom:0px;text-align:center; padding:6px;z-index:1; width:940px;}
-div#primary p.history.affix-top {background:white;  color:black;   border-bottom:1px solid white; border-right:1px solid white; border-left:1px solid white; z-index:-1;  padding-left:20%; }
-div#primary p.history.affix { background:#111; color:#ddd;text-align:center;   border-right:0px solid black; border-left:0px solid black; border-bottom:6px double white;  padding-left:20%; }
+div#top-frame {height:5%; width:90%; background:#4f80ff;  position:fixed; padding: 0.5% 0 1.5%;}
+div#top-frame p.history { width:90%;}
+div#top-frame p.history.affix-top { visibility:hidden; width:90%;   }
+div#top-frame p.history.affix { background:#4f80ff; color:#ddd;text-align:center;  visibility:visible; }
+div#top-frame p.history.affix img {margin-bottom:12px;}
 
-@media(min-width:1200px){
+
+@media(min-width:2000px) {
+div#primary { padding-top: 4%; width: 100%; }
+div#top-frame p.history.affix { }
+}
+@media(min-width:1600px) and (max-width:1999px){
 div#primary { padding-top: 5%; width: 100%; }
-div#primary p.history {width:100%; font-size:.95em; letter-spacing:0.5px; position:fixed;}
+div#top-frame p.history.affix {padding-top: 1%; }
+}
+@media(min-width:1200px) and (max-width:1599px){
+div#primary { padding-top: 6%; width: 100%; }
+div#top-frame p.history { font-size:1.2em; letter-spacing:0.5px; position:fixed;}
 }
 @media(min-width:992px) and (max-width:1199px){
 div#primary {float: right; margin: 0; padding-top: 0px; width: 79%;}
-div#primary p.history {width:72.7%; font-size:.9em; letter-spacing:0.25px; position:fixed;}
+div#top-frame p.history { font-size:1.2em; letter-spacing:0.25px; position:fixed;}
 }
 @media(min-width:768px) and (max-width:991px){
 div#primary {float: right; margin: 0; padding-top: 0px; width: 79%;}
-div#primary p.history {width:74.3%; font-size:1.05em; letter-spacing:0.3px; position:fixed;}
+div#top-frame p.history { font-size:1.05em; letter-spacing:0.3px; position:fixed;}
 
 }
 @media(min-width:481px) and (max-width:767px){
-div#primary p.history {width:100%; font-size:.9em; letter-spacing:0.2px; position:relative; padding-top:80px;}
+div#primary p.history {font-size:.9em; letter-spacing:0.2px; position:relative; padding-top:80px;}
 }
 @media (max-width:480px){
-	div#primary p.history {width:100%; font-size:.8em; letter-spacing:0.1px; position:relative; padding-top:80px;}
+	div#top-frame p.history {font-size:.8em; letter-spacing:0.1px; position:relative; padding-top:80px;}
 }
 
 /* MOBILE MENU and BRANDING AREA */
@@ -272,9 +184,15 @@ div#primary div#marquee img {padding:10px 0px; margin:0px auto; } */
 
 
 /* INTRODUCTION */
-div#introduction {}
+div#introduction {min-height:500px;}
+div#introduction div#commodore-colors {background:red; height:3px; margin-top:30px;}
 div#introduction p {text-align:center; font-family: 'C64' !important; font-size:1.5em;}
-div#introduction p span {font-family: 'C64' !important;}
+div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:2em; line-height:110%;}
+div#introduction p#birdy {float:left; }
+div#introduction p.helloworld {text-align:left; margin-left:50%; color:white; padding:1%;}
+div#introduction p.projectgallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 30px 25% 20px;padding:0px;line-height:100%;}
+div#introduction p.helloworld span {color:#ffe94d; font-family: 'VT323' !important; font-weight:bolder;}
+div#introduction p span {font-family: 'C64'}
 div#introduction p span#ram {padding-right:34px; }
 div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
 
@@ -350,7 +268,7 @@ div#projects-mobile img {width:100%; height:auto; border:1px solid #ccc;}
 
 @media(min-width:1200px){
 div#projects p.gallery img {}
-div#projects .btn-primary.btn-lg {margin:1%; width:22.5%; max-width:475px; }
+div#projects .btn-primary.btn-lg {margin:1%; width:22.5%; }
 div#projects-mobile {display:none;} 
 }
 @media(min-width:992px) and (max-width:1199px){
@@ -379,8 +297,8 @@ div#local-modals .modal-dialog img { width:100%; height:auto; padding:12px;margi
 div#local-modals .modal-content {border-radius:0px;}
 div#local-modals .modal-body {padding:0px;}
 div#local-modals .modal-header {background:#eee; padding: 8px 12px;}
-div#local-modals .modal-header p {margin:0px; font-size:.9em; padding-right:36px;}
-div#local-modals .modal-header h4 {font-size:1.35em; font-weight:400; line-height:125%; color:black;}
+div#local-modals .modal-header p {margin:0px; font-size:1.4em; padding-right:36px;}
+div#local-modals .modal-header h4 {font-size:1.15em; line-height:125%; color:black; text-transform:uppercase; padding-right:36px;}
 
 @media(min-width:1200px){
 div#local-modals .modal-dialog { margin: 36px 16%;width: 68% }

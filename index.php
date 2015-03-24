@@ -22,7 +22,8 @@
 
 <div id="container">
 <a name="top" id="top"></a>
-<div id="top-frame" style="height:5%; width:100%; background:#b4b7ff; position:fixed;">yo
+<div id="top-frame"><p class="history" data-spy="affix" data-offset-top="80"><img src="img/cosmonaut-16.png" /><br />10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
+
 </div>
 
 <!-- Mobile menu -->
@@ -49,13 +50,18 @@
 <!-- End mobile menu -->
 
 <div id="primary">
+
 <div id="introduction"> 
 <p><span id="cosmonaut">**** COSMONAUT CREATIVE MEDIA * PORTLAND, OREGON ****</span></p>
 <p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
-<p><img src="img/bubble.gif" /><img src="img/birdmatrix.gif" />
-<p>READY.<img src="img/cursor.gif" class="cursor" /></img></p></div>
+<div id="commodore-colors"></div>
+<p id="birdy"><img src="img/bubble.gif" /><img src="img/birdmatrix.gif" /></p>
+<p class="helloworld"><span>The future has arrived!</span> The '90s are just around the corner and you need cutting edge technology to keep up with the new world of computerized marketing.</p><p class="helloworld"><u>Cosmonaut</u> designs and develops "World Wide Web" sites for businesses and non-profit organizations. We build these sites using Drupal 7 but not exclusively. Cosmonaut also does a lot of design and photography. Please use your 1351 mouse or other input device to scroll down and learn more about us.</p>
+<p>WE ARE READY.<img src="img/cursor.gif" class="cursor" /></img></p>
+<p class="projectgallery">* WEB PROJECT GALLERY *</p>
+</div>
 
-<p class="history" data-spy="affix" data-offset-top="40">10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
+
 
 
 <div id="projects">
