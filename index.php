@@ -6,6 +6,7 @@
 <!-- Latest compiled and minified CSS -->
 <!-- <link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/>  -->
 <link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/vertical.css">
 <link rel="stylesheet" href="css/1.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
@@ -13,8 +14,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -22,13 +22,11 @@
 
 <div id="container">
 <a name="top" id="top"></a>
-<div id="top-frame"><p class="history" data-spy="affix" data-offset-top="80"><img src="img/cosmonaut-16.png" /><br />10 years of web design and development<span class="glyphicon glyphicon-star"></span>Old Town Portland<span class="glyphicon glyphicon-star"></span>Responsive Drupal 7, CMS or custom site builds</p>
 
-</div>
 
 <!-- Mobile menu -->
 <!-- Single button -->
-<div id="mobile-menu-container" data-spy="affix" data-offset-top="40">
+<div id="mobile-menu-container">
 <!-- Mobile logo-->
 <div id="mobile-logo">
 <a href="#top"><img src="img/mobile-logo.png" /></a>
@@ -50,14 +48,41 @@
 <!-- End mobile menu -->
 
 <div id="primary">
+<div id="top-frame"><!--<p class="history"   >10 years of web design and development * Old Town Portland * Responsive web design in Drupal and other CMS<img src="img/cosmonaut-16.png" data-spy="affix" data-offset-top="0" /></p>-->
 
+</div> 
 <div id="introduction"> 
 <p><span id="cosmonaut">**** COSMONAUT CREATIVE MEDIA * PORTLAND, OREGON ****</span></p>
 <p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
-<div id="commodore-colors"></div>
+
 <p id="birdy"><img src="img/bubble.gif" /><img src="img/birdmatrix.gif" /></p>
-<p class="helloworld"><span>The future has arrived!</span> The '90s are just around the corner and you need cutting edge technology to keep up with the new world of computerized marketing.</p><p class="helloworld"><u>Cosmonaut</u> designs and develops "World Wide Web" sites for businesses and non-profit organizations. We build these sites using Drupal 7 but not exclusively. Cosmonaut also does a lot of design and photography. Please use your 1351 mouse or other input device to scroll down and learn more about us.</p>
-<p>WE ARE READY.<img src="img/cursor.gif" class="cursor" /></img></p>
+<p class="helloworld"><span>The future has arrived!</span> The '90s are just around the corner and you need cutting edge technology to keep up with the high-tech world of computing.</p><p class="helloworld"><u>Cosmonaut</u> designs and develops "World Wide Web" sites for businesses and non-profits. We build these sites using Drupal 7 but not exclusively. Cosmonaut also does a lot of design and photography. Please move your input device to learn more about us.</p>
+<div id="commodore-colors">
+
+
+<div class="spectrum left" id="toews"></div>
+<div class="spectrum left" id="kane"></div>
+<div class="spectrum left" id="hossa"></div>
+<div class="spectrum left" id="sharp"></div>
+
+<div class="spectrum left" id="saad"></div>
+<div class="spectrum left" id="vermette"></div>
+<div class="spectrum left" id="versteeg"></div>
+<div class="spectrum left" id="bickell"></div>
+
+<div id="declaration"><p class="ready">WE ARE READY.<img src="img/cursor.gif" class="cursor" /></img></p></div>
+
+<div class="spectrum right" id="kruger"></div>
+<div class="spectrum right" id="shaw"></div>
+<div class="spectrum right" id="teuvo"></div>
+<div class="spectrum right" id="nordstrom"></div>
+
+<div class="spectrum right" id="carcillo"></div>
+<div class="spectrum right" id="richards"></div>
+<div class="spectrum right" id="desjardins"></div>
+<div class="spectrum right" id="hartman"></div>
+
+</div>
 <p class="projectgallery">* WEB PROJECT GALLERY *</p>
 </div>
 
@@ -182,36 +207,31 @@
 <button id="b12" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_12"><p>West<br />Bearing<br />Investments</p>
 </button>
 </div> <!-- end modal buttons -->
-<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span> * Return to Top *<span class="glyphicon glyphicon-star"></span></a></p>
+<p class="top-return"><a href="#top"> * Return to Top * </a></p>
 </div> <!-- end projects -->
 
-<div id="photography"><a name="photos" id="photos"></a>
+<div id="photographs"> <!-- PHOTO GALLERY -->
+<div class="scrollbar">
+				<div class="handle">
+					<div class="mousearea"></div>
+				</div>
+			</div>
 
-<p><img src="img/photography.png" /></p>
+			<div class="frame smart" id="smart">
+				<ul class="items">
+					<li><img src="img/screens/bukers.jpg" /></li>
+ <li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li>
+                    </ul>
+			</div>
 
-<div id="photo-tout-one" class="photo-tout">
-<h3><a  data-toggle="modal" data-target="#myModal_07">Stock and Editorial</a></h3>
-<p><a href="http://www.istockphoto.com/search/lightbox/16958408#1757d962" target="_blank"><img src="img/stock_editorial.png" /></a></p>
-</div> <!-- end intro tout one -->
+		 <!--	<ul class="pages"></ul>
 
-<div id="photo-tout-two" class="photo-tout">
-<h3><a data-toggle="modal" data-target="#myModal_13">Product and Macro</a></h3>
-<!-- Button trigger modal 13 -->
-<button id="b13" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_13">
-</button>
-</div> <!-- end intro tout two -->
+			
+            </div>
+  
+</div>  <!--END GALLERY -->
 
-<div id="photo-tout-three" class="photo-tout">
-<h3><a  data-toggle="modal" data-target="#myModal_14">Staff and Models</a></h3>
-<!-- Button trigger modal 14 -->
-<button id="b14" type="button" class="btn btn-primary btn-lg right-col" data-toggle="modal" data-target="#myModal_14">
-</button>
-</div> <!-- end intro tout three -->
-
-<p class="top-return"><a href="#top"><span class="glyphicon glyphicon-star"></span>Return to Top<span class="glyphicon glyphicon-star"></span></a></p>
-</div> <!-- end photography -->
-
-<div id="about">
+<div id="about" STYLE="MARGIN-TOP:1000PX;">
 <a name="about" id="about"></a>
 About
 </div> <!-- end about -->
@@ -494,7 +514,11 @@ Contact
 
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="js/vertical.js"></script>
+<script src="js/sly.min.js"></script>
+<script src="js/plugins.js"></script>
 
 <script>
 $(function() {
@@ -512,5 +536,14 @@ $(function() {
   });
 });
 </script>
+
+<script>
+    $(function() {
+          // enable circular scrollables with a click handler
+      $(".scroll").scrollable({ circular: true, speed: 300 }).click(function() {
+      $(this).data("scrollable").next();
+      });
+        });
+		</script>
 </body>
 </html>
