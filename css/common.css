@@ -47,8 +47,8 @@ li {padding:0px;}
 
 .glyphicon,  {padding:0px 6px; font-size:.8em; color:#9a0000; font-family:"Glyphicons Halflings" !important;}
 p.top-return  { text-align:center; font-size:1em; margin:0px auto;}
-p.top-return a {color:#9a0000;padding:5px; border-radius:0px; background:#eee;}
-p.top-return a:hover { background:#9a0000; color:white; border-radius:6px;}
+p.top-return a {color:#fa3200;padding:5px 12px;; border-radius:0px; background:#eee;}
+p.top-return a:hover { background:#fa3200; color:white; border-radius:0px;}
 div.modal-content button.close {opacity:1.0;}
 div.modal-content button.close span {font-size:36px;  color:black; font-family:"Glyphicons Halflings" !important;}
 
@@ -85,7 +85,13 @@ div#top-frame p.history img {}
 div#top-frame p.history img.affix-top { width:10%; margin:12px 45%; opacity:0.5;}
 div#top-frame p.history img.affix { width:15%; margin:12px 42.5%; position:relative;  opacity:1.0; }
 
-
+div#bottom-frame {    background: none repeat scroll 0 0 #4f80ff;
+    bottom: 0;
+    height: 70px;
+    margin-top: 200px;
+    position: fixed;
+    width: 90%;
+    z-index: 10;}
 
 @media(min-width:2000px) {
 div#primary { width: 100%; }

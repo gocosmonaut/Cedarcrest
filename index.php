@@ -48,6 +48,7 @@
 <!-- End mobile menu -->
 
 <div id="primary">
+<div id="bottom-frame"></div>
 <div id="top-frame"><!--<p class="history"   >10 years of web design and development * Old Town Portland * Responsive web design in Drupal and other CMS<img src="img/cosmonaut-16.png" data-spy="affix" data-offset-top="0" /></p>-->
 
 </div> 
@@ -210,6 +211,7 @@
 <p class="top-return"><a href="#top"> * Return to Top * </a></p>
 </div> <!-- end projects -->
 
+</div> 
 <div id="photographs"> <!-- PHOTO GALLERY -->
 <div class="scrollbar">
 				<div class="handle">
@@ -220,7 +222,7 @@
 			<div class="frame smart" id="smart">
 				<ul class="items">
 					<li><img src="img/screens/bukers.jpg" /></li>
- <li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li>
+ <li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/job_growers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/fairway_america.jpg" /></li>
                     </ul>
 			</div>
 
@@ -237,9 +239,7 @@ About
 </div> <!-- end about -->
 
 <div id="contact">
-<a name="contact" id="contact"></a>
-Contact
-</div> <!-- end about -->
+<a name="contact" id="contact"></a><!-- end about -->
 
 
 </div> <!-- end projects -->
