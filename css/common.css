@@ -11,13 +11,13 @@
 }
 
 @font-face {
-    font-family: 'VT323';
-    src: url('fonts/VT323.eot');
-    src: url('fonts/VT323.eot?#iefix') format('embedded-opentype'),
-         url('fonts/VT323.woff2') format('woff2'),
-         url('fonts/VT323.woff') format('woff'),
-         url('fonts/VT323.ttf') format('truetype'),
-         url('fonts/VT323.svg#vt323') format('svg');
+    font-family: 'Christiana';
+    src: url('fonts/Christiana.eot');
+    src: url('fonts/Christiana.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Christiana.woff2') format('woff2'),
+         url('fonts/Christiana.woff') format('woff'),
+         url('fonts/Christiana.ttf') format('truetype'),
+         url('fonts/Christiana.svg#Christiana') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,15 +26,15 @@
 .modal-backdrop { opacity:.6 !important; background:black !important;}
 body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scroll; }
 
-body { background:#4f80ff  !important;}
+body { background:#b4b7ff  !important;}
 
 p, a, button, span, li, ul, div, table {
-color:#4f80ff ;
+color:#b4b7ff ;
 }
 
 /* FONTS */
 
-p, a,  span, li, ul, div, table, div#introduction p.helloworld, div.modal-content p { font-family: 'VT323' !important; letter-spacing: 1px;}
+p, a,  span, li, ul, div, table, div#introduction p.helloworld, div.modal-content p { font-family: 'Christiana' !important; letter-spacing: 1px;}
 div#introduction p, div#introduction p span, p.top-return a, button p, h4, p.history, div#photographs .pics div p  {font-family: 'C64' !important; font-weight:normal; letter-spacing:-0.5px;}
 
 a, a:hover {text-decoration:none !important;}
@@ -55,7 +55,7 @@ div.modal-content button.close span {font-size:36px;  color:black; font-family:"
 
 /* CONTAINER */
 
-div#container {background:#0039ff; margin:0% 5%; width:90%;  padding:0px;}
+div#container {background:#2a4bf6; margin:0% 5%; width:90%;  padding:0px;}
 
 /*
 @media(min-width:1200px){
@@ -79,13 +79,13 @@ div#container {width:94%; margin:0px 3%; }
 
 /* PRIMARY, COMMODORE COLOR STRIPE AND PERSISTENT HEADER */
 div#primary {  }
-div#top-frame { height:70px; width:90%; background:#4f80ff; position:fixed;  text-align:center; z-index:100; }
+div#top-frame { height:70px; width:90%; background:#b4b7ff; position:fixed;  text-align:center; z-index:100; }
 div#top-frame p.history {color:white; width:100%; font-size:.8em; margin-top:8px;}
 div#top-frame p.history img {}
 div#top-frame p.history img.affix-top { width:10%; margin:12px 45%; opacity:0.5;}
 div#top-frame p.history img.affix { width:15%; margin:12px 42.5%; position:relative;  opacity:1.0; }
 
-div#bottom-frame {    background: none repeat scroll 0 0 #4f80ff;
+div#bottom-frame {    background: none repeat scroll 0 0 #b4b7ff;
     bottom: 0;
     height: 70px;
     margin-top: 200px;
@@ -193,19 +193,19 @@ div#primary div#marquee img {padding:10px 0px; margin:0px auto; } */
 div#introduction {min-height:500px; padding-top:100px;}
 
 div#introduction p {text-align:center; font-family: 'C64' !important; font-size:1.5em;}
-div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:2em; line-height:110%;}
+div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:1.05em; line-height:185%;}
 div#introduction p#birdy {float:left; margin:40px 0px; }
 div#introduction p.helloworld {text-align:left; margin:30px 0px 0px 50%; color:white; padding: 1% 2% 1% 1%; }
 
 div#introduction p.projectgallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 180px 25% 20px;padding:0px;line-height:100%;}
-div#introduction p.helloworld span {color:#ffe94d; font-family: 'VT323' !important; font-weight:bolder;}
+div#introduction p.helloworld span {color:#ffe94d; font-family: 'Christiana' !important; letter-spacing:1px;}
 div#introduction p span {font-family: 'C64'}
 div#introduction p span#ram {padding-right:34px; }
 div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
 
-div#introduction div#commodore-colors {margin-top:100px; }
+div#introduction div#commodore-colors {margin-top:130px; }
 div#introduction div#commodore-colors div#declaration {width:30%; float:left; padding:0px; margin:0px;}
-div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; background:#0039ff; padding:0px;}
+div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; background:#2a4bf6; padding:0px;}
 div#introduction div#commodore-colors div.spectrum {height:20px;width:4.375%; margin:0px; padding:0px; }
 div#introduction div#commodore-colors div.spectrum.left {float:left;}
 div#introduction div#commodore-colors div.spectrum.right{float:right;}
@@ -221,7 +221,7 @@ div#introduction div#commodore-colors div#versteeg {background:#545eec;}
 div#introduction div#commodore-colors div#bickell {background:#ffe853;}
 
 div#introduction div#commodore-colors div#kruger {background:#c3c3c3;}
-div#introduction div#commodore-colors div#shaw {background:#4f80ff;}
+div#introduction div#commodore-colors div#shaw {background:#b4b7ff;}
 div#introduction div#commodore-colors div#teuvo {background:#b3ff97;}
 div#introduction div#commodore-colors div#nordstrom {background:#8f8f8f;}
 
