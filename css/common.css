@@ -366,7 +366,7 @@ div#local-modals .modal-dialog { margin: 24px 7%;width: 86% }
 
 /* PHOTOGRAPHY */
 
-div#photographs {width:56%; margin:20px auto;}
+div#photographs {width:52%; margin:20px auto;}
 
 @media(min-width:1200px){
 div#photographs p.photogallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 100px 10% 20px;padding:0px;line-height:100%; width:80%;}
