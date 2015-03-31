@@ -213,6 +213,7 @@
 
 </div> 
 <div id="photographs"> <!-- PHOTO GALLERY -->
+<p class="photogallery">* PHOTO GALLERY *</p>
 <div class="scrollbar">
 				<div class="handle">
 					<div class="mousearea"></div>
