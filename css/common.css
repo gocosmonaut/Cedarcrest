@@ -254,7 +254,7 @@ div#projects {width:100%;padding: 0%; margin: 30px 0; }
 div#projects p.gallery {text-align:center; padding:0px 0px; margin-bottom:20px; }
 div#projects .btn-primary.btn-lg {width:21.625%; margin:0% 4% 6% 0%; padding:0%; border-radius:0px; box-shadow:0px 0px 0px white; text-shadow:none; height:120px; border:3px solid white; float:left; background:#b4b7ff;}
 div#projects .btn-primary.btn-lg p {color:white;text-transform:uppercase; font-size:.9em; line-height:115%;  text-shadow:0px 2px 2px black}
-div#projects .btn-primary.btn-lg:hover {opacity:.9; box-shadow:0 0px 9px white;;}
+div#projects .btn-primary.btn-lg:hover {opacity:.9; box-shadow:0 0px 9px white;}
 div#projects .btn-primary.btn-lg.right-col {margin-right:2%;}
 div#projects .btn-primary.btn-lg.left-col { margin-left:2%;}
 
@@ -369,6 +369,7 @@ div#local-modals .modal-dialog { margin: 24px 7%;width: 86% }
 div#photographs {width:80%; margin:20px auto;}
 
 div#photographs div.photo-category {width:45%;height:400px; overflow:hidden; text-align:center; border:3px solid white; float:left; margin:2.5%;}
+div#photographs div.photo-category:hover { box-shadow:0 0px 9px white;}
 div#photographs div.photo-category p { color: white; font-size: 2.5em; line-height: 115%; text-shadow: 0 2px 2px black; text-transform: uppercase; margin-top:35%;}
 	
 div#photographs div#creative  {background:url(../img/thumbs/creative.jpg); background-position:top center;}

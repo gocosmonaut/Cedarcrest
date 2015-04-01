@@ -215,6 +215,7 @@
 
 </div> 
 <div id="photographs"> <!-- PHOTO GALLERY -->
+<img src="img/autoduel.gif" />
 <p class="photogallery">* PHOTOGRAPHY *</p>
 
 <div class="photo-category" id="editorial"><p>EDITORIAL</p></div>
