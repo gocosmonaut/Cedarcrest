@@ -216,11 +216,24 @@
 </div> 
 <div id="photographs"> <!-- PHOTO GALLERY -->
 <p class="photogallery">* PHOTOGRAPHY *</p>
+<div class="scrollbar">
+				<div class="handle">
+					<div class="mousearea"></div>
+				</div>
+			</div>
 
-<div class="photo-category" id="editorial"><p>EDITORIAL</p></div>
-<div class="photo-category" id="portland"><p>PORTLAND</p></div>
-<div class="photo-category" id="models"><p>PEOPLE</p></div>
-<div class="photo-category" id="creative"><p>CREATIVE</p></div>
+			<div class="frame smart" id="smart">
+				<ul class="items">
+					<li><img src="img/screens/bukers.jpg" /></li>
+ <li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/job_growers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/bukers.jpg" /></li><li><img src="img/screens/fairway_america.jpg" /></li>
+                    </ul>
+			</div>
+
+		 <!--	<ul class="pages"></ul>
+
+			
+            </div>
+  
 </div>  <!--END GALLERY -->
 
 <div id="about" STYLE="MARGIN-TOP:1000PX;">
