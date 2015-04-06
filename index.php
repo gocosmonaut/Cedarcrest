@@ -51,7 +51,7 @@
 
 <div id="primary">
 <div id="bottom-frame"></div>
-<div id="top-frame"><!--<p class="history"   >10 years of web design and development * Old Town Portland * Responsive web design in Drupal and other CMS<img src="img/cosmonaut-16.png" data-spy="affix" data-offset-top="0" /></p>-->
+<div id="top-frame" data-spy="affix" data-offset-top="100"><p>COSMONAUT * 431 NW Flanders, PDX * 503-222-4332 * <a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
 
 </div> 
 <div id="introduction"> 
@@ -59,7 +59,7 @@
 <p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
 
 <p id="birdy"><img src="img/bubble.gif" /><img src="img/birdmatrix.gif" /></p>
-<p class="helloworld"><span>The future has arrived!</span> The '90s are just around the corner and you need cutting edge technology to keep up with the high-tech world of computing.</p><p class="helloworld"><u>Cosmonaut</u> designs and develops "World Wide Web" sites for businesses and non-profits. We build these sites using Drupal 7 but not exclusively. Cosmonaut also does a lot of design and photography. Please move your input device to learn more about us.</p>
+<p class="helloworld"><span>The future has arrived!</span> The '90s are just around the corner and you need cutting edge technology to keep up with the high-tech world of computing.</p><p class="helloworld">** Cosmonaut ** designs and develops "World Wide Web" sites for businesses and non-profits. We build these sites using Drupal 7 but not exclusively. Cosmonaut also does a lot of design and photography. Please move your input device to learn more about us.</p>
 <div id="commodore-colors">
 
 
@@ -215,22 +215,23 @@
 
 </div> 
 <div id="photographs"> <!-- PHOTO GALLERY -->
-<img src="img/autoduel.gif" />
+<img src="img/autoduel.gif" id="autoduel" />
 <p class="photogallery">* PHOTOGRAPHY *</p>
 
-<div class="photo-category" id="editorial"><p>EDITORIAL</p></div>
-<div class="photo-category" id="portland"><p>PORTLAND</p></div>
-<div class="photo-category" id="models"><p>PEOPLE</p></div>
-<div class="photo-category" id="creative"><p>CREATIVE</p></div>
+<div class="photo-category" id="editorial"><p class="category-title">EDITORIAL</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/17269118#8843d9c" target="_blank"><img src="img/social/istock.gif" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-editorial-and-product-photography/" target="_blank"><img src="img/social/pinterest.gif" /></a></p></div>
+<div class="photo-category" id="portland"><p class="category-title">PORTLAND</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/9171845#61d70c4" target="_blank"><img src="img/social/istock.gif" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-portland-photography/" target="_blank"><img src="img/social/pinterest.gif" /></a></p></div>
+<div class="photo-category" id="models"><p class="category-title">PEOPLE</p><p class="social"><a href="https://www.pinterest.com/ddeitschel/cosmonaut-models-and-other-humans/" target="_blank"><img src="img/social/pinterest.gif" /></a><a href="what"><img src="img/social/download.gif" /></a><a href="http://www.istockphoto.com/search/lightbox/1194024#5366a59" target="_blank"><img src="img/social/istock.gif" /></a></p></div>
+<div class="photo-category" id="creative"><p class="category-title">CREATIVE</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/16958408#a665e29" target="_blank"><img src="img/social/istock.gif" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-creative-photography/" target="_blank"><img src="img/social/pinterest.gif" /></a></p></div>
+<p class="top-return"><a href="#top"> * Return to Top * </a></p>
+
+<div id="contact"><p>Cosmonaut<br />431 NW Flanders, Suite 203<br />Portland, Oregon 97209<br />503-222-4332</br><a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
+</div>
+<div id="icons"><p><a href="https://www.facebook.com/gocosmonaut" target="_blank"><img src="img/social/facebook.gif" /></a><a href="https://www.pinterest.com/ddeitschel/" target="_blank"><img src="img/social/pinterest.gif" /></a><a href="https://twitter.com/deitschel" target="_blank"><img src="img/social/twitter.gif"/></a><a href="https://www.linkedin.com/in/deitschel" target="_blank"><img src="img/social/linkedin.gif" /></a><a href="https://instagram.com/gocosmonaut/" target="_blank"><img src="img/social/instagram.gif" /></a></p>
+<p>©2006-2015 Cosmonaut Creative Media, LLC.<br /> This design is a loving tribute to the Commodore 64. Please do not sue us.</p>
 </div>  <!--END GALLERY -->
 
-<div id="about" STYLE="MARGIN-TOP:1000PX;">
-<a name="about" id="about"></a>
-About
-</div> <!-- end about -->
 
-<div id="contact">
-<a name="contact" id="contact"></a><!-- end about -->
+
 
 
 </div> <!-- end projects -->
@@ -507,7 +508,6 @@ About
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<script src="js/vertical.js"></script>
 <script src="js/sly.min.js"></script>
 <script src="js/plugins.js"></script>
 
