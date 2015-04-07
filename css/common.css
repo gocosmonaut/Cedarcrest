@@ -38,7 +38,7 @@ p, a,  span, li, ul, div, table, div#introduction p.helloworld, div.modal-conten
 div#introduction p, div#introduction p span, p.top-return a, button p, h4, p.history, div#photographs .pics div p, div#photographs p.photogallery, div#photographs div.photo-category p  {font-family: 'C64' !important; font-weight:normal; letter-spacing:-0.5px;}
 
 a, a:hover {text-decoration:none !important;}
- img a:hover, :hover, a img:hover, img.affix, opacity,  div { transition: all 0.2s ease 0.1s;}
+ img a:hover, :hover, a img:hover, img.affix, opacity { transition: all 0.2s ease 0.1s;}
 button { transition: all 1s ease .5s;}
 img a, a img {border:0px; border:none; }
 
@@ -81,9 +81,9 @@ div#container {width:94%; margin:0px 3%; }
 div#primary {  }
 div#top-frame { height:70px; width:90%; background:#b4b7ff; position:fixed;  text-align:center; z-index:100; }
 div#top-frame p {padding: 20px 0px 0px 0px;color:white; }
-div#top-frame.affix-top p, div#top-frame.affix-top p a { display:none; margin-top:-50px; }
-div#top-frame.affix p {display:inline-block; margin-top:0px;}
-div#top-frame.affix p a {color:red;}
+div#top-frame.affix-top p, div#top-frame.affix-top p a { display:none; margin-top:-50px; opacity:0; }
+div#top-frame.affix p {display:inline-block; margin-top:0px; opacity:1;}
+div#top-frame.affix p a {color:red; opacity:1;}
 
 
 
