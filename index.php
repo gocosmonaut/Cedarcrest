@@ -102,12 +102,12 @@
 <!-- PROJECT #1 -->
 <h4>Deacon Corp. Web Site Design and Development</h4>
 <img src="img/screens/deacon_portfolio.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<p>We designed and developed this fully reponsive, Drupal 7-based web site for a general construction company in early 2015.</p>
 
 <!-- PROJECT #2 -->
 <h4>Kavi Corporation</h4>
 <img src="img/screens/kavi.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<p>A modern, icon-driven web design for Kavi Workspace software.</p>
 
 <!-- PROJECT #3 -->
 <h4>SBRE Summit</h4>
@@ -227,7 +227,9 @@
 <div id="contact"><p>Cosmonaut<br />431 NW Flanders, Suite 203<br />Portland, Oregon 97209<br />503-222-4332</br><a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
 </div>
 <div id="icons"><p><a href="https://www.facebook.com/gocosmonaut" target="_blank"><img src="img/social/facebook.gif" /></a><a href="https://www.pinterest.com/ddeitschel/" target="_blank"><img src="img/social/pinterest.gif" /></a><a href="https://twitter.com/deitschel" target="_blank"><img src="img/social/twitter.gif"/></a><a href="https://www.linkedin.com/in/deitschel" target="_blank"><img src="img/social/linkedin.gif" /></a><a href="https://instagram.com/gocosmonaut/" target="_blank"><img src="img/social/instagram.gif" /></a></p>
-<p>©2006-2015 Cosmonaut Creative Media, LLC.<br /> This design is a loving tribute to the Commodore 64. Please do not sue us.</p>
+<p class="copyright">©2006-2015 Cosmonaut Creative Media, LLC.</p>
+<p class="signoff" >This design is a loving tribute to the <a href="http://en.wikipedia.org/wiki/Commodore_64" target="_blank">Commodore 64</a>. Please do not sue us.</p>
+<p class="signoff" >Cosmonaut specializes in responsive web design and web development, photography and graphic design. We're based in Old Town Portland.</p>
 </div>  <!--END GALLERY -->
 
 
@@ -250,7 +252,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_01">Deacon Corp. Web Site Design and Development</h4>
-        <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<p>In early 2015 we designed and developed a fully responsive, Drupal 7-based web site for this general construction company and long-time Cosmonaut client.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/deacon_portfolio.jpg" />
@@ -267,7 +269,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_02">KAVI Corporation Web Design</h4>
-        <p>A responsive Drupal 7 site.</p>
+    <p>A modern, icon-driven web design for Kavi Workspace software.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/kavi.jpg" />
@@ -284,7 +286,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_03">Small Business Real Estate (SBRE) Summit Web Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>We branded and designed this web site to advertise a capital-raising event in Seattle presented by Fairway America.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/sbre_summit.jpg" />
@@ -301,7 +303,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_04">Confluence Wealth Management Web Design</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>Cosmonaut created a new identity, brand and design style for this downtown Portland wealth management firm.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/confluence.jpg" />
@@ -318,7 +320,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_05">Quality Chain Corp. Web Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>A responsive eCommerce site built in Drupal 7.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/qc.jpg" />
@@ -335,7 +337,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_06">Manufactured Housing Communities of Oregon (MHCO) Web Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>Cosmonaut branded, designed and developed a responsive, eCommerce-enabled Drupal 7 site for MHCO that features subscription-only content.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/mhco.jpg" />
@@ -352,7 +354,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_07">Identity Theft Protection</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>We designed this landing page for Intel's IPT microsite.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/intel_ipt.jpg" />
@@ -369,7 +371,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_08">Bukers Taxanalysis Web Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>Drupal 7 web development for the Taxanalysis software web site.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/bukers.jpg" />
@@ -386,7 +388,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_09">Fairway America Web Site Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>Identity design, branding, creative web design and development for Fairway America's new flagship web site.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/fairway_america.jpg" />
@@ -403,7 +405,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_10">Commonwealth Real Estate Services Web Site Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>A mobile responsive Drupal 7 site designed and developed for a Portland property management company.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/commonwealth.jpg" />
@@ -420,7 +422,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_11">Job Growers, Inc. Web Design and Development</h4>
-        <p>Drupal 6 site.</p>
+        <p>An Oregon state government-funded web site designed and built in Drupal 6.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/job_growers.jpg" />
@@ -437,24 +439,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel_12">West Bearing Investments Web Site Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
-      </div>
-      <div class="modal-body">
-      <img src="img/screens/westbearing.jpg" />
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Modal 12 -->
-
-<!-- Modal 12 -->
-<div class="modal fade" id="myModal_12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel_12">West Bearing Investments Web Site Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
+        <p>Cosmonaut designed and developed a responsive Drupal 7 site for the newest division of Ferguson Wellman Capital Management in downtown Portland.</p>
       </div>
       <div class="modal-body">
       <img src="img/screens/westbearing.jpg" />

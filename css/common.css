@@ -38,12 +38,13 @@ p, a,  span, li, ul, div, table, div#introduction p.helloworld, div.modal-conten
 div#introduction p, div#introduction p span, p.top-return a, button p, h4, p.history, div#photographs .pics div p, div#photographs p.photogallery, div#photographs div.photo-category p  {font-family: 'C64' !important; font-weight:normal; letter-spacing:-0.5px;}
 
 a, a:hover {text-decoration:none !important;}
- img a:hover, :hover, a img:hover, img.affix, opacity { transition: all 0.2s ease 0.1s;}
+ img a:hover, :hover, a img:hover, img.affix, opacity, div { transition: all 0.2s ease 0.1s;}
 button { transition: all 1s ease .5s;}
 img a, a img {border:0px; border:none; }
 
 ul { list-style:none; padding:0px;}
 li {padding:0px;}
+sub {line-height:135%;}
 
 .glyphicon,  {padding:0px 6px; font-size:.8em; color:#9a0000; font-family:"Glyphicons Halflings" !important;}
 p.top-return  { text-align:center; font-size:1em; margin:0px auto;}
@@ -390,16 +391,17 @@ div#photographs div#portland:hover {background:url(../img/thumbs/portland.jpg); 
 div#photographs div#models  {background:url(../img/thumbs/models.jpg); background-position:top center;}
 div#photographs div#models:hover {background:url(../img/thumbs/models.jpg); background-position:bottom center;}
 
-div#contact {line-height: 180%;
-    padding: 40px 0 20px;
-    text-align: center;
-    width: 100%;}
-div#contact p a {color:white;padding:0px 6px;}
+div#contact {line-height: 190%; padding: 40px 0 20px; text-align: center;width: 100%;}
+div#contact p {color:white;}
+div#contact p a {color:white;padding:0px 6px; }
 div#contact p a:hover {color:white;background:red;}
 
 div#icons {padding-bottom:70px;}
-div#icons p img {width:50px; height:auto; margin:0px 10px; }
+div#icons p img {width:50px; height:auto; margin:0px 10px 10px; }
 div#icons p img:hover {box-shadow:0 0px 9px white;}
+div#icons p.copyright {font-size:.75em;}
+div#icons p.signoff {font-size:.65em; line-height:190%; width:80%; margin:auto;}
+div#icons p.signoff a {color: #ffe94d;}
 
 @media(min-width:1200px){
 div#photographs p.photogallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 20px 20% 20px;padding:0px;line-height:100%; width:60%;}
