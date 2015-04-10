@@ -92,51 +92,58 @@ div#container {width:95%; margin:0px 2.5%; }
 
 
 /* PRIMARY, COMMODORE COLOR STRIPE AND PERSISTENT HEADER and FOOTER */
-div#primary { max-width: 2100px;width: 100%;}
+div#primary { ;width: 100%;}
 div#top-frame { background:#b4b7ff; position:fixed;  text-align:center; z-index:100; margin: 0; padding-top: 0px; }
-div#top-frame p {padding: 20px 0px 0px 0px;color:white; }
+div#top-frame p {color:white; }
 div#top-frame.affix-top {}
 div#top-frame.affix-top p, div#top-frame.affix-top p a {  display:none; }
 div#top-frame.affix {display:inline-block;}
-div#top-frame.affix p {margin-top:0px; opacity:1;}
+div#top-frame.affix p {margin-top:0px; opacity:1;padding: 20px 0px 0px 0px;}
 div#top-frame.affix p a {color:white; opacity:1; padding:0px 4px;}
 div#top-frame.affix p a:hover {color:white; background:red;}
-
-
-
 div#bottom-frame { background:  #b4b7ff; bottom: 0;  position: fixed; z-index: 10;}
 
 @media(min-width:2000px) {
 div#primary {padding-top:0px;margin-top:0px;}
 div#top-frame { height:70px; width:100%; }
+div#top-frame.affix p { font-size:1.25em;}
 div#bottom-frame {  height: 70px; margin-top: 200px;  width: 90%; }
 }
 
 @media(min-width:1600px) and (max-width:1999px){
 div#primary {padding-top:0px;}
 div#top-frame { height:70px; width:90%; }
+div#top-frame.affix p { font-size:1.15em;}
 div#bottom-frame {  height: 70px; margin-top: 200px;  width: 90%; }
+
 }
 
 @media(min-width:1200px) and (max-width:1599px){
 div#primary {}
-div#top-frame { height:70px; width:90%; }
+div#top-frame { height:70px; width:90%; } 
+div#top-frame.affix p { font-size:1em;}
 div#bottom-frame {  height: 70px; margin-top: 200px;  width: 90%; }
 }
 
 @media(min-width:992px) and (max-width:1199px){
 div#primary {}
 div#top-frame { height:60px; width:92%; }
+div#top-frame.affix p { font-size:.9em;}
 div#bottom-frame {  height: 60px; margin-top: 200px;  width: 100%; }
 }
 
 @media(min-width:768px) and (max-width:991px){
+div#primary {}
 div#top-frame { height:50px; width:93%; }
+div#top-frame.affix p { font-size:.75em;}
 div#bottom-frame {  height: 50px; margin-top: 200px;  width: 100%; }
 }
 
 @media(min-width:481px) and (max-width:767px){
-div#primary p.history {font-size:.9em; letter-spacing:0.2px; position:relative; padding-top:80px;}
+div#primary {}
+div#top-frame { height:50px; width:94%; }
+div#top-frame.affix p { font-size:.65em;}
+div#bottom-frame {  height: 50px; margin-top: 200px;  width: 100%; }
 }
 
 @media (max-width:480px){
@@ -149,19 +156,19 @@ div#introduction {min-height:500px;}
 
 div#introduction p {text-align:center; font-family: 'C64' !important; font-size:1.5em;}
 div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:1.05em; line-height:185%;}
-div#introduction p#birdy {float:left; margin:40px 0px; }
+div#introduction p#birdy {}
 div#introduction p.helloworld {text-align:left; margin:30px 0px 0px 50%; color:white; padding: 1% 2% 1% 1%; }
 
-div#introduction p.projectgallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 180px 25% 20px;padding:0px;line-height:100%;}
+div#introduction p.projectgallery {text-align:center; background:white;color:#003aff; }
 div#introduction p.helloworld span {color:#ffe94d; font-family: 'Christiana' !important; letter-spacing:1px;}
 div#introduction p span {font-family: 'C64'}
-div#introduction p span#ram {padding-right:34px; }
-div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
+div#introduction p span#ram {}
+div#introduction img.cursor {}
 
 div#introduction div#commodore-colors {margin-top:115px; }
-div#introduction div#commodore-colors div#declaration {width:30%; float:left; padding:0px; margin:0px;}
-div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; background:#2a4bf6; padding:0px;}
-div#introduction div#commodore-colors div.spectrum {height:20px;width:4.375%; margin:0px; padding:0px; }
+div#introduction div#commodore-colors div#declaration {}
+div#introduction div#commodore-colors div#declaration p.ready {background:#2a4bf6; }
+div#introduction div#commodore-colors div.spectrum {height:20px; margin:0px; padding:0px; }
 div#introduction div#commodore-colors div.spectrum.left {float:left;}
 div#introduction div#commodore-colors div.spectrum.right{float:right;}
 
@@ -185,19 +192,93 @@ div#introduction div#commodore-colors div#richards {background:#ff7143;}
 div#introduction div#commodore-colors div#desjardins {background:#c53b00;}
 div#introduction div#commodore-colors div#hartman {background:#ff5d00;}
 
+@media(min-width:2000px) {
+div#introduction { padding-top:110px;}
+div#introduction p#birdy {float:left; margin:0px 0px; }
 
-@media(min-width:1200px){
+div#introduction p {text-align:center; font-family: 'C64' !important; font-size:1.5em;}
+div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:1.05em; line-height:185%;}
+div#introduction p#birdy {}
+div#introduction p.helloworld {text-align:left; margin:30px 0px 0px 50%; color:white; padding: 1% 2% 1% 1%; }
+	
+div#introduction div#commodore-colors div#declaration {width:20%; float:left; padding:0px; margin:0px;}
+div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; padding:0px;}
+div#introduction div#commodore-colors div.spectrum {height:20px;width:5%; margin:0px; padding:0px; }
+}
+
+@media(min-width:1600px) and (max-width:1999px){
 div#introduction { padding-top:100px;}
+div#introduction p#birdy {float:left; margin:0px 0px; }
+
+div#introduction div#commodore-colors div#declaration {width:30%; float:left; padding:0px; margin:0px;}
+div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; padding:0px;}
+div#introduction div#commodore-colors div.spectrum {height:20px;width:4.375%; margin:0px; padding:0px; }
+}
+
+@media(min-width:1200px) and (max-width:1599px){
+div#introduction { padding-top:100px;}
+div#introduction p#birdy {float:left; margin:0px 0px; }
+
+div#introduction p {text-align:center;  !important; font-size:1.5em;}
+div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:1.05em; line-height:185%;}
+div#introduction p#birdy {}
+div#introduction p.helloworld {text-align:left; margin:30px 0px 0px 50%; color:white; padding: 1% 2% 1% 1%; }
+
+div#introduction p.projectgallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 180px 25% 20px;padding:0px;line-height:100%;}
+div#introduction p.helloworld span {color:#ffe94d; font-family: 'Christiana' !important; letter-spacing:1px;}
+div#introduction p span {}
+div#introduction p span#ram {padding-right:34px; }
+div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
+
+div#introduction div#commodore-colors div#declaration {width:30%; float:left; padding:0px; margin:0px;}
+div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; padding:0px;}
+div#introduction div#commodore-colors div.spectrum {height:20px;width:4.375%; margin:0px; padding:0px; }
 }
 
 @media(min-width:992px) and (max-width:1199px){
 div#introduction { padding-top:100px;}
+
+div#introduction p {text-align:center; font-family: 'C64' !important; font-size:1.35em;}
+div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:1.05em; line-height:185%;}
+div#introduction p#birdy {}
+div#introduction p.helloworld {text-align:left; margin:30px 0px 0px 50%; color:white; padding: 1% 2% 1% 1%; }
+	
+
+div#introduction p.projectgallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 180px 25% 20px;padding:0px;line-height:100%;}
+div#introduction p.helloworld span { !important; letter-spacing:1px;}
+div#introduction p span {}
+div#introduction p span#ram {padding-right:30px; }
+div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
+
+div#introduction div#commodore-colors div#declaration {width:30%; float:left; padding:0px; margin:0px;}
+div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; padding:0px;}
+div#introduction div#commodore-colors div.spectrum {height:20px;width:4.375%; margin:0px; padding:0px; }
+
+
 }
 
 @media(min-width:768px) and (max-width:991px){
 div#introduction { padding-top:90px;}
+
+div#introduction p {text-align:center; font-family: 'C64' !important; font-size:1.1em;}
+div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:1.05em; line-height:185%;}
+div#introduction p#birdy { width:100%;}
+div#introduction p.helloworld {text-align:left; margin:30px 0px 0px; color:white; padding: 1% 2% 1% 1%; }
+	
+
+div#introduction p.projectgallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 180px 25% 20px;padding:0px;line-height:100%;}
+div#introduction p.helloworld span { !important; letter-spacing:1px;}
+div#introduction p span {}
+div#introduction p span#ram {padding-right:20px; }
+div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
+div#introduction div#commodore-colors div#declaration {width:35%; float:left; padding:0px; margin:0px;}
+div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; padding:0px;}
+div#introduction div#commodore-colors div.spectrum {height:20px;width:4%; margin:0px; padding:0px; }
 }
 @media(min-width:481px) and (max-width:767px){
+	div#introduction div#commodore-colors div#declaration {width:35%; float:left; padding:0px; margin:0px;}
+div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; padding:0px;}
+div#introduction div#commodore-colors div.spectrum {height:20px;width:4%; margin:0px; padding:0px; }
 
 }
 @media (max-width:480px){
@@ -355,10 +436,19 @@ div#icons p.copyright {font-size:.75em;}
 div#icons p.signoff {font-size:.65em; line-height:190%; width:80%; margin:auto;}
 div#icons p.signoff a {color: #ffe94d;}
 
-@media(min-width:1200px){
-div#photographs p.photogallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 20px 20% 20px;padding:0px;line-height:100%; width:60%;}
+@media(min-width:2000px) {
+div#photographs div.photo-category p {  margin-top:15%;}
+}
+
+@media(min-width:1600px) and (max-width:1999px){
+div#photographs div.photo-category p {  margin-top:25%;}
 
 }
+
+@media(min-width:1200px) and (max-width:1599px){
+
+div#photographs p.photogallery {text-align:center; background:white;color:#003aff; font-size:1.75em; margin: 20px 20% 20px;padding:0px;line-height:100%; width:60%;}
+div#photographs div.photo-category p {  margin-top:35%;}
 
 @media(min-width:992px) and (max-width:1199px){
 div.photo-tout {width:31%; margin-right:3.33%; }
