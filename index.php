@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Untitled Document</title>
+<title>Cosmonaut</title>
 <!-- Latest compiled and minified CSS -->
 <!-- <link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/>  -->
 <link rel="stylesheet" href="css/common.css">
@@ -26,32 +26,9 @@
 <a name="top" id="top"></a>
 
 
-<!-- Mobile menu -->
-<!-- Single button -->
-<div id="mobile-menu-container">
-<!-- Mobile logo-->
-<div id="mobile-logo">
-<a href="#top"><img src="img/mobile-logo.png" /></a>
-</div> <!-- end mobile logo -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-  </button>
-  <ul class="dropdown-menu" role="menu">
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#photos">Photography</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-
-  </div> <!-- end mobile-menu-container -->
-    <div id="mobile-contact"><p><a href="tel:1+503-222-4332">503-222-4332</a><span class="glyphicon glyphicon-star"></span>431 NW Flanders, PDX 97217</p></div>
-</div>
-<!-- End mobile menu -->
-
 <div id="primary">
 <div id="bottom-frame"></div>
-<div id="top-frame" data-spy="affix" data-offset-top="100"><p>COSMONAUT * 431 NW Flanders, PDX * 503-222-4332 * <a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
+<div id="top-frame" data-spy="affix" data-offset-top="100"><p>COSMONAUT * 431 NW Flanders, PDX * <a href="tel:1-503-222-4332" title="Cosmonaut">503-222-4332</a>  * <a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
 
 </div> 
 <div id="introduction"> 
@@ -224,7 +201,7 @@
 <div class="photo-category" id="creative"><p class="category-title">CREATIVE</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/16958408#a665e29" target="_blank"><img src="img/social/istock.gif" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-creative-photography/" target="_blank"><img src="img/social/pinterest.gif" /></a></p></div>
 <p class="top-return"><a href="#top"> * Return to Top * </a></p>
 
-<div id="contact"><p>Cosmonaut<br />431 NW Flanders, Suite 203<br />Portland, Oregon 97209<br />503-222-4332</br><a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
+<div id="contact"><p>Cosmonaut<br />431 NW Flanders, Suite 203<br />Portland, Oregon 97209<br /><a href="tel:15032224332">503-222-4332</a></br><a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
 </div>
 <div id="icons"><p><a href="https://www.facebook.com/gocosmonaut" target="_blank"><img src="img/social/facebook.gif" /></a><a href="https://www.pinterest.com/ddeitschel/" target="_blank"><img src="img/social/pinterest.gif" /></a><a href="https://twitter.com/deitschel" target="_blank"><img src="img/social/twitter.gif"/></a><a href="https://www.linkedin.com/in/deitschel" target="_blank"><img src="img/social/linkedin.gif" /></a><a href="https://instagram.com/gocosmonaut/" target="_blank"><img src="img/social/instagram.gif" /></a></p>
 <p class="copyright">©2006-2015 Cosmonaut Creative Media, LLC.</p>

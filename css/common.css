@@ -1,3 +1,5 @@
+/* FONT IMPORTS */
+
 @font-face {
     font-family: 'C64';
     src: url('fonts/c64.eot');
@@ -20,8 +22,10 @@
          url('fonts/Christiana.svg#Christiana') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+p, a,  span, li, ul, div, table, div#introduction p.helloworld, div.modal-content p, div#local-modals .modal-header h4 { font-family: 'Christiana' !important; letter-spacing: 1px;}
+div#introduction p, div#introduction p span, p.top-return a, button p, h4, p.history, div#photographs .pics div p, div#photographs p.photogallery, div#photographs div.photo-category p  {font-family: 'C64' !important; font-weight:normal; letter-spacing:-0.5px;}
 
 .modal-backdrop { opacity:.6 !important; background:black !important;}
 body.modal-open {padding:0px !important; margin:0px !important; overflow-y: scroll; }
@@ -32,13 +36,11 @@ p, a, button, span, li, ul, div, table {
 color:#b4b7ff ;
 }
 
-/* FONTS */
+/* UNIVERSAL */
 
-p, a,  span, li, ul, div, table, div#introduction p.helloworld, div.modal-content p, div#local-modals .modal-header h4 { font-family: 'Christiana' !important; letter-spacing: 1px;}
-div#introduction p, div#introduction p span, p.top-return a, button p, h4, p.history, div#photographs .pics div p, div#photographs p.photogallery, div#photographs div.photo-category p  {font-family: 'C64' !important; font-weight:normal; letter-spacing:-0.5px;}
 
 a, a:hover {text-decoration:none !important;}
- img a:hover, :hover, a img:hover, img.affix, opacity, div { transition: all 0.2s ease 0.1s;}
+img a:hover, :hover, a img:hover, img.affix, opacity, div { transition: all 0.2s ease 0.1s;}
 button { transition: all 1s ease .5s;}
 img a, a img {border:0px; border:none; }
 
@@ -56,144 +58,94 @@ div.modal-content button.close span {font-size:36px;  color:black; font-family:"
 
 /* CONTAINER */
 
-div#container {background:#2a4bf6; margin:0% 5%; width:90%;  padding:0px;}
+div#container {background:#2a4bf6; padding:0px;}
 
-/*
-@media(min-width:1200px){
-div#container {width:100%; margin:0px auto; }
-
+@media(min-width:2000px) {
+	div#container {width:95%; margin:0% 2.5%; }
 }
+
+@media(min-width:1600px) and (max-width:1999px){
+div#container {width:90%; margin:0% 5%; }
+}
+
+@media(min-width:1200px) and (max-width:1599px){
+div#container {width:90%; margin:-70px 5% 0 5%; }
+body {padding-top:70px;}
+}
+
 @media(min-width:992px) and (max-width:1199px){
 div#container {width:92%; margin:0px 4%; }
 }
+
 @media(min-width:768px) and (max-width:991px){
-div#container {width:94%; margin:0px 3%; }
+div#container {width:93%; margin:0px 3.5%; }
 }
+
 @media(min-width:481px) and (max-width:767px){
 div#container {width:94%; margin:0px 3%; }
 }
+
 @media (max-width:480px){
-	div#container {width:95%; margin:0px 2.5%; }
+div#container {width:95%; margin:0px 2.5%; }
 }
-*/
 
 
-/* PRIMARY, COMMODORE COLOR STRIPE AND PERSISTENT HEADER */
-div#primary {  }
-div#top-frame { height:70px; width:90%; background:#b4b7ff; position:fixed;  text-align:center; z-index:100; }
+
+/* PRIMARY, COMMODORE COLOR STRIPE AND PERSISTENT HEADER and FOOTER */
+div#primary { max-width: 2100px;width: 100%;}
+div#top-frame { background:#b4b7ff; position:fixed;  text-align:center; z-index:100; margin: 0; padding-top: 0px; }
 div#top-frame p {padding: 20px 0px 0px 0px;color:white; }
-div#top-frame.affix-top p, div#top-frame.affix-top p a { display:none; margin-top:-50px; opacity:0; }
-div#top-frame.affix p {display:inline-block; margin-top:0px; opacity:1;}
-div#top-frame.affix p a {color:red; opacity:1;}
+div#top-frame.affix-top {}
+div#top-frame.affix-top p, div#top-frame.affix-top p a {  display:none; }
+div#top-frame.affix {display:inline-block;}
+div#top-frame.affix p {margin-top:0px; opacity:1;}
+div#top-frame.affix p a {color:white; opacity:1; padding:0px 4px;}
+div#top-frame.affix p a:hover {color:white; background:red;}
 
 
 
-div#bottom-frame {    background: none repeat scroll 0 0 #b4b7ff;
-    bottom: 0;
-    height: 70px;
-    margin-top: 200px;
-    position: fixed;
-    width: 90%;
-    z-index: 10;}
+div#bottom-frame { background:  #b4b7ff; bottom: 0;  position: fixed; z-index: 10;}
 
 @media(min-width:2000px) {
-div#primary { width: 100%; }
+div#primary {padding-top:0px;margin-top:0px;}
+div#top-frame { height:70px; width:100%; }
+div#bottom-frame {  height: 70px; margin-top: 200px;  width: 90%; }
 }
+
 @media(min-width:1600px) and (max-width:1999px){
-div#primary {  width: 100%; }
-
+div#primary {padding-top:0px;}
+div#top-frame { height:70px; width:90%; }
+div#bottom-frame {  height: 70px; margin-top: 200px;  width: 90%; }
 }
+
 @media(min-width:1200px) and (max-width:1599px){
-div#primary { width: 100%; }
-div#top-frame p.history { }
+div#primary {}
+div#top-frame { height:70px; width:90%; }
+div#bottom-frame {  height: 70px; margin-top: 200px;  width: 90%; }
 }
-@media(min-width:992px) and (max-width:1199px){
-div#primary {float: right; margin: 0; padding-top: 0px; width: 79%;}
-div#top-frame p.history {}
-}
-@media(min-width:768px) and (max-width:991px){
-div#primary {float: right; margin: 0; padding-top: 0px; width: 79%;}
-div#top-frame p.history { }
 
+@media(min-width:992px) and (max-width:1199px){
+div#primary {}
+div#top-frame { height:60px; width:92%; }
+div#bottom-frame {  height: 60px; margin-top: 200px;  width: 100%; }
 }
+
+@media(min-width:768px) and (max-width:991px){
+div#top-frame { height:50px; width:93%; }
+div#bottom-frame {  height: 50px; margin-top: 200px;  width: 100%; }
+}
+
 @media(min-width:481px) and (max-width:767px){
 div#primary p.history {font-size:.9em; letter-spacing:0.2px; position:relative; padding-top:80px;}
 }
+
 @media (max-width:480px){
 	div#top-frame p.history {font-size:.8em; letter-spacing:0.1px; position:relative; padding-top:80px;}
 }
 
-/* MOBILE MENU and BRANDING AREA */
-
-div#mobile-menu-container { position: fixed; z-index: 10; background:#9a0000;padding:12px 0px;text-align:right; }
-div#mobile-menu-container.affix {background:black;}
-div#mobile-menu-container div.btn-group {}
-div#mobile-menu-container div.btn-group .btn { width:40px;padding:3px 9px;}
-div#mobile-menu-container div.btn-group ul {margin-left:-120px;}
-div#mobile-menu-container div.btn-group ul li a {font-size:1.2em;}
-span.glyphicon.glyphicon-menu-hamburger {font-size:1.5em;}
-div#mobile-logo {}
-div#mobile-logo img { float:left;}
-div#mobile-contact {}
-div#mobile-contact p { color:white; text-align:center; margin:0px; padding:6px; font-weight:400;}
-div#mobile-contact p a {color:white; font-weight:400;}
-div#mobile-menu-container div#mobile-contact p span.glyphicon {color:black;}
-div#mobile-menu-container.affix div#mobile-contact p span.glyphicon { color:#9a0000;}
-
-@media(min-width:1200px){
-div.btn-group {display:none;}
-div#mobile-menu-container {}
-div#mobile-logo, div#mobile-contact  {display:none;}
-}
-
-@media(min-width:992px) and (max-width:1199px){
-div.btn-group {display:none;}
-div#mobile-menu-container {display:none;}
-div#mobile-logo, div#mobile-contact {display:none;}
-}
-
-@media(min-width:768px) and (max-width:991px){
-div.btn-group {display:none;}
-div#mobile-menu-container {display:none;}
-div#mobile-logo, div#mobile-contact  {display:none;}
-}
-@media(min-width:481px) and (max-width:767px){
-div.btn-group {}
-div#mobile-menu-container {width:94%; margin-left:0%; padding:12px 12px 0 12px;}
-div#mobile-logo {width:53%; text-align:left;}
-div#mobile-contact p { font-size:.9em;}
-}
-@media (max-width:480px){
-	div.btn-group {}
-	div#mobile-menu-container {width:95%; padding:12px 12px 0 12px;}
-	div#mobile-logo {width:53%; text-align:left;}
-	div#mobile-contact p { font-size:.8em;}
-}
-
-/***--MARQUEE-- ***/
-/*
-div#primary div#marquee {height:275px; margin:42px auto;  text-align:center;}
-div#primary div#marquee p {background:white; width:340px; margin:215px 300px 0px; float:left;}
-div#primary div#marquee img {padding:10px 0px; margin:0px auto; } */
-
-@media(min-width:1200px){
-
-}
-@media(min-width:992px) and (max-width:1199px){
-
-}
-@media(min-width:768px) and (max-width:991px){
-
-}ß
-@media(min-width:481px) and (max-width:767px){
-
-}
-@media (max-width:480px){
-}
-
 
 /* INTRODUCTION */
-div#introduction {min-height:500px; padding-top:100px;}
+div#introduction {min-height:500px;}
 
 div#introduction p {text-align:center; font-family: 'C64' !important; font-size:1.5em;}
 div#introduction p#birdy, div#introduction p.helloworld {width:50%; margin:24px 0px 16px; font-size:1.05em; line-height:185%;}
@@ -235,15 +187,15 @@ div#introduction div#commodore-colors div#hartman {background:#ff5d00;}
 
 
 @media(min-width:1200px){
-
+div#introduction { padding-top:100px;}
 }
 
 @media(min-width:992px) and (max-width:1199px){
-
+div#introduction { padding-top:100px;}
 }
 
 @media(min-width:768px) and (max-width:991px){
-
+div#introduction { padding-top:90px;}
 }
 @media(min-width:481px) and (max-width:767px){
 
