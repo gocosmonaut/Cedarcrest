@@ -82,12 +82,12 @@
 <p>We designed and developed this fully reponsive, Drupal 7-based web site for a general construction company in early 2015.</p>
 
 <!-- PROJECT #2 -->
-<h4>Kavi Corporation</h4>
+<h4>Kavi Corporation Web Design</h4>
 <img src="img/screens/kavi.jpg" />
 <p>A modern, icon-driven web design for Kavi Workspace software.</p>
 
 <!-- PROJECT #3 -->
-<h4>SBRE Summit</h4>
+<h4>SBRE Summit Web Design</h4>
 <img src="img/screens/sbre_summit.jpg" />
 <p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
 
