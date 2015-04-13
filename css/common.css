@@ -141,7 +141,7 @@ div#bottom-frame {  height: 50px; margin-top: 200px;  width: 100%; }
 
 @media(min-width:481px) and (max-width:767px){
 div#primary {}
-div#top-frame { height:55px; width:94%; }
+div#top-frame { height:65px; width:94%; }
 div#top-frame.affix p { font-size:.75em;}
 div#bottom-frame {  height: 35px; margin-top: 200px;  width: 100%; }
 }
@@ -337,12 +337,12 @@ div#introduction p.projectgallery {text-align:center; background:white;color:#00
 div#introduction p.helloworld span { !important; letter-spacing:1px;}
 div#introduction p span {}
 div#introduction p span#ram {padding-right:20px; }
-div#introduction img.cursor {margin-top: -5px; padding-left: 4px;}
+div#introduction img.cursor {margin-top: -3px; padding-left: 4px; width:17px; height:auto;}
 
-div#introduction div#commodore-colors {margin-top:115px; }
-div#introduction div#commodore-colors div#declaration {width:35%; float:left; padding:0px; margin:0px;}
+div#introduction div#commodore-colors {margin-top:70px; }
+div#introduction div#commodore-colors div#declaration {width:60%; float:left; padding:0px; margin:0px;}
 div#introduction div#commodore-colors div#declaration p.ready {margin-top:-5px; padding:0px;}
-div#introduction div#commodore-colors div.spectrum {height:20px;width:4%; margin:0px; padding:0px; }
+div#introduction div#commodore-colors div.spectrum {height:20px;width:2.5%; margin:0px; padding:0px; }
 	
 }
 
@@ -394,7 +394,7 @@ div#projects button#b12:hover {background:url(../img/thumbs/westbearing.gif); ba
 
 div#projects-mobile {text-align:center;}
 div#projects-mobile p {margin:12px 0px 24px 0px; color: #999;  font-size: 0.65em; line-height: 180%;  margin: 12px 0 24px;padding: 0 4%;}
-div#projects-mobile h4 {margin:0px 0px 16px 0px; color:#333; padding:6px; background:#eee; line-height:190%; font-size:.7em; }
+div#projects-mobile h4 {margin:0px 0px 16px 0px; color:#aaa; padding:6px; background:#666; line-height:190%; font-size:.7em; }
 div#projects-mobile img {width:100%; height:auto; border:1px solid #ccc;}
 
 
@@ -527,7 +527,7 @@ div#photo-tout-three button#b14 { background:url(../img/staff_models.jpg) no-rep
 
 div#photographs p.photogallery {text-align:center; background:white;color:#003aff; font-size:1.4em; margin: 20px 20% 20px;padding:0px;line-height:100%; width:60%;}
 div#photographs div.photo-category {width:45%;height:400px; overflow:hidden; text-align:center; border:3px solid white; float:left; margin:2.5%;}
-div#photographs div.photo-category p {  margin-top:35%;}
+div#photographs div.photo-category p {  margin-top:35%; font-size:2em;}
 	
 div.photo-tout {width:31%; margin-right:3.33%; }
 div#photography div.photo-tout  h3 { font-size:1em;}
@@ -539,7 +539,7 @@ div#photo-tout-three button#b14 { background:url(../img/staff_models.jpg) no-rep
 @media(min-width:481px) and (max-width:767px){
 div#photographs p.photogallery {text-align:center; background:white;color:#003aff; font-size:1.3em; margin: 20px 20% 20px;padding:0px;line-height:100%; width:60%;}
 div#photographs div.photo-category {width:100%;height:400px; overflow:hidden; text-align:center; border:3px solid white; float:left; margin:2.5% 0;}
-div#photographs div.photo-category p {  margin-top:35%;}
+div#photographs div.photo-category p {  margin-top:25%; font-size:2.25em;}
 
 div.photo-tout {width:100%; margin:0px;}
 div#photography div.photo-tout  h3 { font-size:1.2em;}
@@ -553,8 +553,8 @@ div#photo-tout-three button#b14 { background:url(../img/staff_models.jpg) no-rep
 @media (max-width:480px){
 	
 div#photographs p.photogallery {text-align:center; background:white;color:#003aff; font-size:1.1em; margin: 20px 14% 20px;padding:0px;line-height:100%; width:72%;}
-div#photographs div.photo-category {width:100%;height:400px; overflow:hidden; text-align:center; border:3px solid white; float:left; margin:2.5% 0;}
-div#photographs div.photo-category p {  margin-top:35%;}
+div#photographs div.photo-category {width:100%;height:400px; overflow:hidden; text-align:center; border:3px solid white; float:left; margin:2.5% 0 4%;}
+div#photographs div.photo-category p {  margin-top:25%; font-size:2em;}
 
 div#photography div.photo-tout img {width:30%; margin:0px 0px 15px 15px; float:right;}
 div#photography div.photo-tout h3 { font-size:1.2em;}
@@ -610,22 +610,22 @@ div#icons p.signoff a {color: #ffe94d;}
 
 @media(min-width:1200px){
 div#icons {padding-bottom:70px;}
-div#icons p img {width:50px; }
+div#icons p img {width:50px; margin:0px 10px 10px; }
 }
 @media(min-width:992px) and (max-width:1199px){
 div#icons {padding-bottom:70px;}
-div#icons p img {width:45px; }
+div#icons p img {width:45px; margin:0px 10px 10px; }
 }
 @media(min-width:768px) and (max-width:991px){
 div#icons {padding-bottom:70px;}
-div#icons p img {width:40px;  }
+div#icons p img {width:40px; margin:0px 10px 10px;  }
 }
 @media(min-width:481px) and (max-width:767px){
 div#icons {padding-bottom:70px;}
-div#icons p img {width:35px; }
+div#icons p img {width:35px; margin:0px 10px 10px; }
 }
 @media (max-width:480px){
 div#icons {padding-bottom:70px;}
-div#icons p img {width:30px;  }
+div#icons p img {width:30px;  margin:0px 6px 10px; }
 }
 
