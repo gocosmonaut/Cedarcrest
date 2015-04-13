@@ -6,8 +6,6 @@
 <!-- Latest compiled and minified CSS -->
 <!-- <link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/>  -->
 <link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="css/vertical.css">
-<link rel="stylesheet" href="css/1.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
