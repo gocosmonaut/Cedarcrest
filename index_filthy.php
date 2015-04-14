@@ -1,15 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Cosmonaut</title>
-<!-- Latest compiled and minified CSS -->
-<!-- <link href="css/<?php echo mt_rand(1, 5); ?>.css" rel="stylesheet" type="text/css"/>  -->
-<link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/common.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <!--
 <link rel="shortcut icon" href="img/favicon.ico" />
 <link rel="shortcut icon" href="img/favicon.gif" /> -->
@@ -31,9 +29,9 @@
 </div> 
 <div id="introduction"> 
 <p><span id="cosmonaut">**** COSMONAUT CREATIVE MEDIA * PORTLAND, OREGON ****</span></p>
-<p><span id="ram">CREATIVE WEB DESIGN & WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
+<p><span id="ram">CREATIVE WEB DESIGN &amp; WEB DEVELOPMENT</span>38911 BASIC BYTES FREE</p>
 
-<p id="birdy"><img src="img/bubble.gif" /><img src="img/birdmatrix.gif" /></p>
+<p id="birdy"><img src="img/bubble.gif" alt="Welcome to the Information Superhighway!" /><img src="img/birdmatrix.gif"alt="Cosmo" /></p>
 <p class="helloworld"><span>The future has arrived!</span> The '90s are just around the corner and you need cutting edge technology to keep up with the high-tech world of computing.</p><p class="helloworld">** Cosmonaut ** designs and develops "World Wide Web" sites for businesses and non-profits. We build these sites using Drupal 7 but not exclusively. Cosmonaut also does a lot of design and photography. Please move your input device to learn more about us.</p>
 <div id="commodore-colors">
 
@@ -48,7 +46,7 @@
 <div class="spectrum left" id="versteeg"></div>
 <div class="spectrum left" id="bickell"></div>
 
-<div id="declaration"><p class="ready">WE ARE READY.<img src="img/cursor.gif" class="cursor" /></img></p></div>
+<div id="declaration"><p class="ready">WE ARE READY.<img src="img/cursor.gif" class="cursor" alt="Commodore 64 Cursor" /> </p></div>
 
 <div class="spectrum right" id="kruger"></div>
 <div class="spectrum right" id="shaw"></div>
@@ -68,71 +66,68 @@
 
 
 <div id="projects">
- 
-    
-  <a name="projects" id="projects"></a>
     
 <div id="projects-mobile">
 
 <!-- PROJECT #1 -->
 <h4>Deacon Corp. Web Site Design and Development</h4>
-<img src="img/screens/deacon_portfolio.jpg" />
-<p>We designed and developed this fully reponsive, Drupal 7-based web site for a general construction company in early 2015.</p>
+<img src="img/screens/deacon_portfolio.jpg" alt="Cosmonaut - Deacon Corp. Web Site Design and Development" />
+<p>In early 2015 we designed and developed a fully responsive, Drupal 7-based web site for this general construction company and long-time Cosmonaut client.</p>
 
 <!-- PROJECT #2 -->
 <h4>Kavi Corporation Web Design</h4>
-<img src="img/screens/kavi.jpg" />
+<img src="img/screens/kavi.jpg" alt="Cosmonaut - Kavi Corporation Web Design" />
 <p>A modern, icon-driven web design for Kavi Workspace software.</p>
 
 <!-- PROJECT #3 -->
 <h4>SBRE Summit Web Design</h4>
-<img src="img/screens/sbre_summit.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<img src="img/screens/sbre_summit.jpg" alt="Cosmonaut - SBRE Summit Web Design" />
+<p>We branded and designed this web site to advertise a capital-raising event in Seattle presented by Fairway America.</p>
 
 <!-- PROJECT #4 -->
-<h4>Confluence Wealth Management</h4>
-<img src="img/screens/confluence.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>Confluence Wealth Management Web Design</h4>
+<img src="img/screens/confluence.jpg" alt="Cosmonaut - Confluence Wealth Management Web Design" />
+<p>Cosmonaut created a new identity, brand and design style for this downtown Portland wealth management firm.</p>
 
 <!-- PROJECT #5 -->
-<h4>Quality Chain Corp.</h4>
-<img src="img/screens/qc.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>Quality Chain Corp. Web Development</h4>
+<img src="img/screens/qc.jpg" alt="Cosmonaut - Quality Chain Corp. Web Development" />
+<p>A responsive eCommerce site built in Drupal 7.</p>
 
 <!-- PROJECT #6 -->
-<h4>MHCO</h4>
-<img src="img/screens/mhco.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>MHCO Web Design and Development</h4>
+<img src="img/screens/mhco.jpg"  alt="Cosmonaut - MHCO Web Design and Development" />
+<p>Cosmonaut branded, designed and developed a responsive, eCommerce-enabled Drupal 7 site for MHCO that features subscription-only content.</p>
 
 <!-- PROJECT #7 -->
-<h4>Identity Theft Protection</h4>
-<img src="img/screens/intel_ipt.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>Identity Theft Protection Web Design</h4>
+<img src="img/screens/intel_ipt.jpg"  alt="Cosmonaut - Identity Theft Protection Web Design" />
+<p>We designed this landing page for Intel's IPT microsite.</p>
 
 <!-- PROJECT #8 -->
-<h4>Bukers Taxanalysis</h4>
-<img src="img/screens/bukers.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>Bukers Taxanalysis Web Development</h4>
+<img src="img/screens/bukers.jpg"  alt="Cosmonaut - Bukers Taxanalysis Web Development" />
+<p>Drupal 7 web development for the Taxanalysis software web site.</p>
 
 <!-- PROJECT #9 -->
-<h4>Fairway America</h4>
-<img src="img/screens/fairway_america.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>Fairway America Web Design</h4>
+<img src="img/screens/fairway_america.jpg"  alt="Cosmonaut - Fairway America Web Design" />
+<p>Identity design, branding, creative web design and development for Fairway America's new flagship web site.</p>
 
 <!-- PROJECT #10 -->
-<h4>Commonwealth Real Estate Services</h4>
-<img src="img/screens/commonwealth.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>Commonwealth Real Estate Services Web Design and Development</h4>
+<img src="img/screens/commonwealth.jpg"  alt="Cosmonaut - Commonwealth Real Estate Services Web Design and Development" />
+<p>A mobile responsive Drupal 7 site designed and developed for a Portland property management company.</p>
 
 <!-- PROJECT #11 -->
-<h4>Job Growers, Inc.</h4>
-<img src="img/screens/job_growers.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>Job Growers, Inc. Web Design and Development</h4>
+<img src="img/screens/job_growers.jpg"  alt="Cosmonaut - Job Growers, Inc. Web Design and Development" />
+<p>An Oregon state government-funded web site designed and built in Drupal 6.</p>
 
 <!-- PROJECT #12 -->
-<h4>West Bearing Investments</h4>
-<img src="img/screens/westbearing.jpg" />
-<p>A responsive Drupal 7 site. Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds Responsive Drupal 7, CMS or custom site builds</p>
+<h4>West Bearing Investments Web Design and Development</h4>
+<img src="img/screens/westbearing.jpg" alt="Cosmonaut - West Bearing Investments Web Design and Development" />
+<p>Cosmonaut designed and developed a responsive Drupal 7 site for the newest division of Ferguson Wellman Capital Management in downtown Portland.</p>
  
 </div> <!-- end projects mobile -->
 <div id="modal-buttons">
@@ -174,7 +169,7 @@
 </button>
 
 <!-- Button trigger modal 10 -->
-<button id="b10" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10"><p>Commonwealth<br />Real Estate<br />Services<p>
+<button id="b10" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_10"><p>Commonwealth<br />Real Estate<br />Services</p>
 </button>
 
 <!-- Button trigger modal 11 -->
@@ -190,18 +185,18 @@
 
 </div> 
 <div id="photographs"> <!-- PHOTO GALLERY -->
-<img src="img/autoduel.gif" id="autoduel" />
+<img src="img/autoduel.gif" id="autoduel" alt="Walking man from the classic DOS game Autoduel" />
 <p class="photogallery">* PHOTOGRAPHY *</p>
 
-<div class="photo-category" id="editorial"><p class="category-title">EDITORIAL</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/17269118#8843d9c" target="_blank"><img src="img/social/istock.gif" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-editorial-and-product-photography/" target="_blank"><img src="img/social/pinterest.gif" /></a></p></div>
-<div class="photo-category" id="portland"><p class="category-title">PORTLAND</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/9171845#61d70c4" target="_blank"><img src="img/social/istock.gif" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-portland-photography/" target="_blank"><img src="img/social/pinterest.gif" /></a></p></div>
-<div class="photo-category" id="models"><p class="category-title">PEOPLE</p><p class="social"><a href="https://www.pinterest.com/ddeitschel/cosmonaut-models-and-other-humans/" target="_blank"><img src="img/social/pinterest.gif" /></a><a href="what"><img src="img/social/download.gif" /></a><a href="http://www.istockphoto.com/search/lightbox/1194024#5366a59" target="_blank"><img src="img/social/istock.gif" /></a></p></div>
-<div class="photo-category" id="creative"><p class="category-title">CREATIVE</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/16958408#a665e29" target="_blank"><img src="img/social/istock.gif" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-creative-photography/" target="_blank"><img src="img/social/pinterest.gif" /></a></p></div>
+<div class="photo-category" id="editorial"><p class="category-title">EDITORIAL</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/17269118#8843d9c" target="_blank"><img src="img/social/istock.gif" alt="iStockphoto" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-editorial-and-product-photography/" target="_blank"><img src="img/social/pinterest.gif" alt="Pinterest" /></a></p></div>
+<div class="photo-category" id="portland"><p class="category-title">PORTLAND</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/9171845#61d70c4" target="_blank"><img src="img/social/istock.gif" alt="iStockphoto" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-portland-photography/" target="_blank" ><img src="img/social/pinterest.gif" alt="pinterest" /></a></p></div>
+<div class="photo-category" id="models"><p class="category-title">PEOPLE</p><p class="social"><a href="https://www.pinterest.com/ddeitschel/cosmonaut-models-and-other-humans/" target="_blank"><img src="img/social/pinterest.gif" alt="Pinterest" /></a><a href="what"><img src="img/social/download.gif" alt="Download" /></a><a href="http://www.istockphoto.com/search/lightbox/1194024#5366a59" target="_blank"><img src="img/social/istock.gif" alt="iStockphoto" /></a></p></div>
+<div class="photo-category" id="creative"><p class="category-title">CREATIVE</p><p class="social"><a href="http://www.istockphoto.com/search/lightbox/16958408#a665e29" target="_blank"><img src="img/social/istock.gif" alt="iStockphoto" /></a><a href="https://www.pinterest.com/ddeitschel/cosmonaut-creative-photography/" target="_blank"><img src="img/social/pinterest.gif" alt="Pinterest" /></a></p></div>
 <p class="top-return"><a href="#top"> * Return to Top * </a></p>
 
-<div id="contact"><p>Cosmonaut<br />431 NW Flanders, Suite 203<br />Portland, Oregon 97209<br /><a href="tel:15032224332">503-222-4332</a></br><a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
+<div id="contact"><p>Cosmonaut<br />431 NW Flanders, Suite 203<br />Portland, Oregon 97209<br /><a href="tel:15032224332">503-222-4332</a><br/><a href="mailto:launch@gocosmonaut.com">launch@gocosmonaut.com</a></p>
 </div>
-<div id="icons"><p><a href="https://www.facebook.com/gocosmonaut" target="_blank"><img src="img/social/facebook.gif" /></a><a href="https://www.pinterest.com/ddeitschel/" target="_blank"><img src="img/social/pinterest.gif" /></a><a href="https://twitter.com/deitschel" target="_blank"><img src="img/social/twitter.gif"/></a><a href="https://www.linkedin.com/in/deitschel" target="_blank"><img src="img/social/linkedin.gif" /></a><a href="https://instagram.com/gocosmonaut/" target="_blank"><img src="img/social/instagram.gif" /></a></p>
+<div id="icons"><p><a href="https://www.facebook.com/gocosmonaut" target="_blank"><img src="img/social/facebook.gif" alt="Facebook" /></a><a href="https://www.pinterest.com/ddeitschel/" target="_blank" alt="Pinterest"><img src="img/social/pinterest.gif" /></a><a href="https://twitter.com/deitschel" alt="Twitter" target="_blank"><img src="img/social/twitter.gif"/></a><a href="https://www.linkedin.com/in/deitschel" alt="LinkedIn" target="_blank"><img src="img/social/linkedin.gif" /></a><a href="https://instagram.com/gocosmonaut/" alt="Instagram" target="_blank"><img src="img/social/instagram.gif" /></a></p>
 <p class="copyright">©2006-2015 Cosmonaut Creative Media, LLC.</p>
 <p class="signoff" >This design is a loving tribute to the <a href="http://en.wikipedia.org/wiki/Commodore_64" target="_blank">Commodore 64</a>. Please do not sue us.</p>
 <p class="signoff" >Cosmonaut specializes in responsive web design and web development, photography and graphic design. We're based in Old Town Portland.</p>
@@ -230,7 +225,7 @@
 <p>In early 2015 we designed and developed a fully responsive, Drupal 7-based web site for this general construction company and long-time Cosmonaut client.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/deacon_portfolio.jpg" />
+      <img src="img/screens/deacon_portfolio.jpg" alt="Deacon Corp. Web Site Design and Development" />
       </div>
     </div>
   </div>
@@ -247,7 +242,7 @@
     <p>A modern, icon-driven web design for Kavi Workspace software.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/kavi.jpg" />
+      <img src="img/screens/kavi.jpg" alt="KAVI Corporation Web Design" />
       </div>
     </div>
   </div>
@@ -264,7 +259,7 @@
         <p>We branded and designed this web site to advertise a capital-raising event in Seattle presented by Fairway America.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/sbre_summit.jpg" />
+      <img src="img/screens/sbre_summit.jpg" alt="Small Business Real Estate (SBRE) Summit Web Design and Development" />
       </div>
     </div>
   </div>
@@ -277,11 +272,11 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel_04">Confluence Wealth Management Web Design</h4>
+        <h4 class="modal-title" id="myModalLabel_04">Confluence Wealth Management Web and Brand Design</h4>
         <p>Cosmonaut created a new identity, brand and design style for this downtown Portland wealth management firm.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/confluence.jpg" />
+      <img src="img/screens/confluence.jpg" alt="Confluence Wealth Management Web and Brand Design"/>
       </div>
     </div>
   </div>
@@ -298,7 +293,7 @@
         <p>A responsive eCommerce site built in Drupal 7.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/qc.jpg" />
+      <img src="img/screens/qc.jpg" alt="Quality Chain Corp. Web Design and Development" />
       </div>
     </div>
   </div>
@@ -315,7 +310,7 @@
         <p>Cosmonaut branded, designed and developed a responsive, eCommerce-enabled Drupal 7 site for MHCO that features subscription-only content.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/mhco.jpg" />
+      <img src="img/screens/mhco.jpg" alt="Manufactured Housing Communities of Oregon (MHCO) Web Design and Development" />
       </div>
     </div>
   </div>
@@ -332,7 +327,7 @@
         <p>We designed this landing page for Intel's IPT microsite.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/intel_ipt.jpg" />
+      <img src="img/screens/intel_ipt.jpg" alt="Intel Identity Theft Protection" />
       </div>
     </div>
   </div>
@@ -349,7 +344,7 @@
         <p>Drupal 7 web development for the Taxanalysis software web site.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/bukers.jpg" />
+      <img src="img/screens/bukers.jpg" alt="Bukers Taxanalysis Web Development" />
       </div>
     </div>
   </div>
@@ -383,7 +378,7 @@
         <p>A mobile responsive Drupal 7 site designed and developed for a Portland property management company.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/commonwealth.jpg" />
+      <img src="img/screens/commonwealth.jpg" alt="Commonwealth Real Estate Services Web Site Design and Development" />
       </div>
     </div>
   </div>
@@ -400,7 +395,7 @@
         <p>An Oregon state government-funded web site designed and built in Drupal 6.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/job_growers.jpg" />
+      <img src="img/screens/job_growers.jpg" alt="Job Growers, Inc. Web Design and Development" />
       </div>
     </div>
   </div>
@@ -417,84 +412,22 @@
         <p>Cosmonaut designed and developed a responsive Drupal 7 site for the newest division of Ferguson Wellman Capital Management in downtown Portland.</p>
       </div>
       <div class="modal-body">
-      <img src="img/screens/westbearing.jpg" />
+      <img src="img/screens/westbearing.jpg" alt="West Bearing Investments Web Site Design and Development" />
       </div>
     </div>
   </div>
 </div>
 <!-- End Modal 12 -->
-
-<!-- Modal 13 -->
-<div class="modal fade" id="myModal_13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel_13">Cosmonaut</h4>
-        <p>A responsive Drupal 7 site.</p>
-      </div>
-      <div class="modal-body">
-      <img src="img/cosmonaut_products_macro.jpg" />
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Modal 13 -->
-
-<!-- Modal 14 -->
-<div class="modal fade" id="myModal_14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel_14">West Bearing Investments Web Site Design and Development</h4>
-        <p>A responsive Drupal 7 site.</p>
-      </div>
-      <div class="modal-body">
-      <img src="img/cosmonaut_models_staff.jpg" />
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Modal 14 -->
   
   
   
 </div> <!-- end local modals -->
 
-</div> <!-- end container -->
 
 
-
+<script src="js/sly.min.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<script src="js/sly.min.js"></script>
-<script src="js/plugins.js"></script>
 
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 400);
-        return false;
-      }
-    }
-  });
-});
-</script>
-
-<script>
-    $(function() {
-          // enable circular scrollables with a click handler
-      $(".scroll").scrollable({ circular: true, speed: 300 }).click(function() {
-      $(this).data("scrollable").next();
-      });
-        });
-		</script>
 </body>
 </html>
